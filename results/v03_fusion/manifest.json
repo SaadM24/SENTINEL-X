@@ -1,0 +1,24 @@
+{
+  "configuration": {
+    "C": 1,
+    "code": "734b07b2d3796f5a0d615189730a3368e6bb3b915bc3b041999fc4a12137a4e3",
+    "corpus_sha256": "58d625470749344843a7f730b0875ce9b8769f6fa48f18dc4a92bd07c342ead5",
+    "dataset_code": "0f19f26d274f40fd7a90db659ad36accfefdc9ee29349040ead5cf4265a4a349",
+    "density_code": "88fb691091463d7dde2750344ca5519bcadca7a20f5fc51d4a0a2a9b913eb359",
+    "protocol": "docs/protocols/FUSION_PROTOCOL.md",
+    "seed_salt": "sentinel-fusion-216"
+  },
+  "dataset": "ADFA-LD",
+  "duration_s": 1.6092656989994794,
+  "experiment_id": "E4-fusion",
+  "files": {
+    "model.json": "5391f022df5397ebd5a793ef9915f3fa5fc070c6ff36f5600cac3e9a109a3784",
+    "partitions.csv": "f8c2f1d73ff7e87c83d1773a5608bab4ed8a92f0ef3798657284903664b0ac68",
+    "scores.csv": "a727478468ea621aa2b1978b64d2b2e2e6e29c7d6dec04838a6414692aa26b28",
+    "summary.json": "fc7411eaa3f276e3a4770177e18f71d8d9f0abf49f6a85aaf6305d316ec8985c"
+  },
+  "numpy": "2.3.5",
+  "python": "3.12.14",
+  "sklearn": "1.8.0",
+  "status": "executed"
+}

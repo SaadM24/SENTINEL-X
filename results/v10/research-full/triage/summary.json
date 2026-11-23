@@ -1,0 +1,63 @@
+{
+  "dataset": "UNSW-NB15",
+  "model": "logistic",
+  "policies": {
+    "raw_all": {
+      "n": 44759,
+      "escalated": 0,
+      "escalated_errors": 0,
+      "automatic_errors": 14676,
+      "errors": 14676,
+      "coverage": 1.0,
+      "automatic_risk": 0.327889363033133,
+      "unnecessary_escalations": 0
+    },
+    "cal_all": {
+      "n": 44759,
+      "escalated": 0,
+      "escalated_errors": 0,
+      "automatic_errors": 14636,
+      "errors": 14636,
+      "coverage": 1.0,
+      "automatic_risk": 0.32699568801805223,
+      "unnecessary_escalations": 0
+    },
+    "cal_70": {
+      "n": 44759,
+      "escalated": 13352,
+      "escalated_errors": 5554,
+      "automatic_errors": 9082,
+      "errors": 14636,
+      "coverage": 0.7016912799660403,
+      "automatic_risk": 0.28917120387174833,
+      "unnecessary_escalations": 7798
+    },
+    "cal_85": {
+      "n": 44759,
+      "escalated": 25755,
+      "escalated_errors": 10772,
+      "automatic_errors": 3864,
+      "errors": 14636,
+      "coverage": 0.42458499966487184,
+      "automatic_risk": 0.20332561565986107,
+      "unnecessary_escalations": 14983
+    },
+    "cal_95": {
+      "n": 44759,
+      "escalated": 31978,
+      "escalated_errors": 13369,
+      "automatic_errors": 1267,
+      "errors": 14636,
+      "coverage": 0.2855515091936817,
+      "automatic_risk": 0.09913152335498004,
+      "unnecessary_escalations": 18609
+    }
+  },
+  "fixed_threshold_report_ablation": {
+    "cases": 25755,
+    "claims": 51510,
+    "verifiable_claims_with_citations": 51510,
+    "verifiable_claims_after_stripping_citations": 0
+  },
+  "limitations": "Score and model metadata only. Reviewer time, reviewer accuracy and root cause unmeasured."
+}

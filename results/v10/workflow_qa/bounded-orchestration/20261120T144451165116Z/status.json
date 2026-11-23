@@ -1,0 +1,171 @@
+{
+  "environment": {
+    "command": [
+      "scripts/check_environment.py"
+    ],
+    "blocked_by": [],
+    "status": "passed",
+    "returncode": 0,
+    "seconds": 1.662,
+    "log": "results/workflow/local-work-research/20261120T144451165116Z/environment.log"
+  },
+  "data": {
+    "command": [
+      "scripts/download_datasets.py",
+      "--mode",
+      "research"
+    ],
+    "blocked_by": [],
+    "status": "passed",
+    "returncode": 0,
+    "seconds": 0.046,
+    "log": "results/workflow/local-work-research/20261120T144451165116Z/data.log"
+  },
+  "detection": {
+    "command": [
+      "-m",
+      "sentinel_x.detection",
+      "--input",
+      "data/processed/research/events.csv",
+      "--run",
+      "local-work-research",
+      "--mode",
+      "research",
+      "--seed",
+      "42",
+      "--device",
+      "cpu"
+    ],
+    "blocked_by": [],
+    "status": "passed",
+    "returncode": 0,
+    "seconds": 4.738,
+    "log": "results/workflow/local-work-research/20261120T144451165116Z/detection.log"
+  },
+  "replay": {
+    "command": [
+      "scripts/audit_detection.py",
+      "--input",
+      "data/processed/research/events.csv",
+      "--results",
+      "results/v02/local-work-research"
+    ],
+    "blocked_by": [],
+    "status": "passed",
+    "returncode": 0,
+    "seconds": 1.514,
+    "log": "results/workflow/local-work-research/20261120T144451165116Z/replay.log"
+  },
+  "overlap": {
+    "command": [
+      "scripts/audit_transformed_overlap.py",
+      "--input",
+      "data/processed/research/events.csv",
+      "--results",
+      "results/v02/local-work-research"
+    ],
+    "blocked_by": [],
+    "status": "passed",
+    "returncode": 0,
+    "seconds": 1.49,
+    "log": "results/workflow/local-work-research/20261120T144451165116Z/overlap.log"
+  },
+  "sequences": {
+    "command": [
+      "-m",
+      "sentinel_x.behaviour",
+      "--dataset",
+      "adfa",
+      "--out",
+      "results/v03/local-work-research"
+    ],
+    "blocked_by": [],
+    "status": "passed",
+    "returncode": 0,
+    "seconds": 2.993,
+    "log": "results/workflow/local-work-research/20261120T144451165116Z/sequences.log"
+  },
+  "evidence": {
+    "command": [
+      "-m",
+      "sentinel_x.evidence.evaluate",
+      "--output",
+      "results/v04/local-work-research"
+    ],
+    "blocked_by": [],
+    "status": "passed",
+    "returncode": 0,
+    "seconds": 0.051,
+    "log": "results/workflow/local-work-research/20261120T144451165116Z/evidence.log"
+  },
+  "triage": {
+    "command": [
+      "-m",
+      "sentinel_x.evidence.triage",
+      "--predictions",
+      "results/v02/local-work-research/predictions.csv",
+      "--output",
+      "results/v10/local-work-research/triage"
+    ],
+    "blocked_by": [],
+    "status": "passed",
+    "returncode": 0,
+    "seconds": 0.121,
+    "log": "results/workflow/local-work-research/20261120T144451165116Z/triage.log"
+  },
+  "export": {
+    "command": [
+      "scripts/export_research_results.py",
+      "--run",
+      "local-work-research"
+    ],
+    "blocked_by": [],
+    "status": "passed",
+    "returncode": 0,
+    "seconds": 1.219,
+    "log": "results/workflow/local-work-research/20261120T144451165116Z/export.log"
+  },
+  "verify": {
+    "command": [
+      "scripts/verify_results.py",
+      "--run",
+      "local-work-research"
+    ],
+    "blocked_by": [],
+    "status": "passed",
+    "returncode": 0,
+    "seconds": 1.284,
+    "log": "results/workflow/local-work-research/20261120T144451165116Z/verify.log"
+  },
+  "fusion": {
+    "command": [
+      "-m",
+      "sentinel_x.fusion",
+      "--out",
+      "results/v03_fusion/local-work-research",
+      "--archive",
+      "data/raw/ADFA-LD.zip"
+    ],
+    "blocked_by": [],
+    "status": "passed",
+    "returncode": 0,
+    "seconds": 2.729,
+    "log": "results/workflow/local-work-research/20261120T144451165116Z/fusion.log"
+  },
+  "review_packet": {
+    "command": [
+      "scripts/build_evidence_packet.py",
+      "--predictions",
+      "results/v02/local-work-research/predictions.csv",
+      "--events",
+      "data/processed/research/events.csv",
+      "--output",
+      "results/v10/local-work-research/evidence_packet"
+    ],
+    "blocked_by": [],
+    "status": "passed",
+    "returncode": 0,
+    "seconds": 0.12,
+    "log": "results/workflow/local-work-research/20261120T144451165116Z/review_packet.log"
+  }
+}

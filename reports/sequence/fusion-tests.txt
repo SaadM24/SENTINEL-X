@@ -1,0 +1,7 @@
+test_group_split_input_order_invariance (test_fusion.FusionTests.test_group_split_input_order_invariance) ... ok
+test_scenario_groups_are_atomic_and_disjoint_from_density (test_fusion.FusionTests.test_scenario_groups_are_atomic_and_disjoint_from_density) ... ok
+
+----------------------------------------------------------------------
+Ran 2 tests in 0.001s
+
+OK

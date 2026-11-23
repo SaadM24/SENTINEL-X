@@ -1,0 +1,3 @@
+category,count,fp,fn,mean_p
+fixture-anomaly,53,0,34,0.45320426037792516
+Normal,87,11,0,0.2975281578842622

@@ -1,0 +1,588 @@
+{
+  "scores": [
+    {
+      "model": "logistic",
+      "calibration": "raw",
+      "precision": 0.49536784741144413,
+      "recall": 0.9144869215291751,
+      "f1": 0.6426299045599152,
+      "macro_f1": 0.6619015180320862,
+      "average_precision": 0.47880573791236986,
+      "pr_auc": 0.4781584487264827,
+      "roc_auc": 0.7243089644547243,
+      "tn": 1080,
+      "fp": 926,
+      "fn": 85,
+      "tp": 909,
+      "brier": 0.23635381095160085,
+      "ece": 0.1983851633613977,
+      "fpr": 0.46161515453639085,
+      "false_alarms_per_1000": 461.61515453639083,
+      "microseconds_per_event": 0.04332866653082116
+    },
+    {
+      "model": "logistic",
+      "calibration": "platt",
+      "precision": 0.4952698942682248,
+      "recall": 0.8953722334004024,
+      "f1": 0.6377642422070943,
+      "macro_f1": 0.661356412159951,
+      "average_precision": 0.4788057379123699,
+      "pr_auc": 0.47815844872648267,
+      "roc_auc": 0.7243089644547243,
+      "tn": 1099,
+      "fp": 907,
+      "fn": 104,
+      "tp": 890,
+      "brier": 0.22936122323349242,
+      "ece": 0.18509160878359637,
+      "fpr": 0.4521435692921236,
+      "false_alarms_per_1000": 452.14356929212363,
+      "microseconds_per_event": 0.04332866653082116
+    },
+    {
+      "model": "logistic",
+      "calibration": "temperature",
+      "precision": 0.49536784741144413,
+      "recall": 0.9144869215291751,
+      "f1": 0.6426299045599152,
+      "macro_f1": 0.6619015180320862,
+      "average_precision": 0.4788057379123699,
+      "pr_auc": 0.47815844872648267,
+      "roc_auc": 0.7243089644547243,
+      "tn": 1080,
+      "fp": 926,
+      "fn": 85,
+      "tp": 909,
+      "brier": 0.2325759212962868,
+      "ece": 0.1928362690805664,
+      "fpr": 0.46161515453639085,
+      "false_alarms_per_1000": 461.61515453639083,
+      "microseconds_per_event": 0.04332866653082116
+    },
+    {
+      "model": "logistic",
+      "calibration": "isotonic",
+      "precision": 0.4973821989528796,
+      "recall": 0.9557344064386318,
+      "f1": 0.6542699724517906,
+      "macro_f1": 0.6649902833835181,
+      "average_precision": 0.48439462586897436,
+      "pr_auc": 0.5201364104546082,
+      "roc_auc": 0.7347585011564903,
+      "tn": 1046,
+      "fp": 960,
+      "fn": 44,
+      "tp": 950,
+      "brier": 0.2290037484145856,
+      "ece": 0.1994128289740821,
+      "fpr": 0.4785643070787637,
+      "false_alarms_per_1000": 478.5643070787637,
+      "microseconds_per_event": 0.04332866653082116
+    }
+  ],
+  "reliability": [
+    {
+      "model": "logistic",
+      "calibration": "raw",
+      "bin": 0,
+      "count": 656,
+      "mean_probability": 0.02857202678329176,
+      "observed_rate": 0.001524390243902439
+    },
+    {
+      "model": "logistic",
+      "calibration": "raw",
+      "bin": 1,
+      "count": 140,
+      "mean_probability": 0.13255949460036934,
+      "observed_rate": 0.007142857142857143
+    },
+    {
+      "model": "logistic",
+      "calibration": "raw",
+      "bin": 2,
+      "count": 83,
+      "mean_probability": 0.26216661205403874,
+      "observed_rate": 0.12048192771084337
+    },
+    {
+      "model": "logistic",
+      "calibration": "raw",
+      "bin": 3,
+      "count": 184,
+      "mean_probability": 0.33954447540831695,
+      "observed_rate": 0.07608695652173914
+    },
+    {
+      "model": "logistic",
+      "calibration": "raw",
+      "bin": 4,
+      "count": 102,
+      "mean_probability": 0.4553345179576666,
+      "observed_rate": 0.5784313725490197
+    },
+    {
+      "model": "logistic",
+      "calibration": "raw",
+      "bin": 5,
+      "count": 226,
+      "mean_probability": 0.5538908309469368,
+      "observed_rate": 0.5221238938053098
+    },
+    {
+      "model": "logistic",
+      "calibration": "raw",
+      "bin": 6,
+      "count": 435,
+      "mean_probability": 0.6509534777042852,
+      "observed_rate": 0.6022988505747127
+    },
+    {
+      "model": "logistic",
+      "calibration": "raw",
+      "bin": 7,
+      "count": 437,
+      "mean_probability": 0.7502093672339929,
+      "observed_rate": 0.45308924485125857
+    },
+    {
+      "model": "logistic",
+      "calibration": "raw",
+      "bin": 8,
+      "count": 401,
+      "mean_probability": 0.8474309089575909,
+      "observed_rate": 0.4463840399002494
+    },
+    {
+      "model": "logistic",
+      "calibration": "raw",
+      "bin": 9,
+      "count": 336,
+      "mean_probability": 0.9525495275528206,
+      "observed_rate": 0.4523809523809524
+    },
+    {
+      "model": "logistic",
+      "calibration": "platt",
+      "bin": 0,
+      "count": 627,
+      "mean_probability": 0.02737856209406799,
+      "observed_rate": 0.001594896331738437
+    },
+    {
+      "model": "logistic",
+      "calibration": "platt",
+      "bin": 1,
+      "count": 169,
+      "mean_probability": 0.1302156564849225,
+      "observed_rate": 0.005917159763313609
+    },
+    {
+      "model": "logistic",
+      "calibration": "platt",
+      "bin": 2,
+      "count": 96,
+      "mean_probability": 0.26335909258485435,
+      "observed_rate": 0.125
+    },
+    {
+      "model": "logistic",
+      "calibration": "platt",
+      "bin": 3,
+      "count": 183,
+      "mean_probability": 0.33632053156831043,
+      "observed_rate": 0.10382513661202186
+    },
+    {
+      "model": "logistic",
+      "calibration": "platt",
+      "bin": 4,
+      "count": 128,
+      "mean_probability": 0.4564280604332784,
+      "observed_rate": 0.5546875
+    },
+    {
+      "model": "logistic",
+      "calibration": "platt",
+      "bin": 5,
+      "count": 309,
+      "mean_probability": 0.5574204378147884,
+      "observed_rate": 0.56957928802589
+    },
+    {
+      "model": "logistic",
+      "calibration": "platt",
+      "bin": 6,
+      "count": 444,
+      "mean_probability": 0.6503817179399138,
+      "observed_rate": 0.5405405405405406
+    },
+    {
+      "model": "logistic",
+      "calibration": "platt",
+      "bin": 7,
+      "count": 436,
+      "mean_probability": 0.7508389554335326,
+      "observed_rate": 0.45871559633027525
+    },
+    {
+      "model": "logistic",
+      "calibration": "platt",
+      "bin": 8,
+      "count": 335,
+      "mean_probability": 0.8479606366120624,
+      "observed_rate": 0.4388059701492537
+    },
+    {
+      "model": "logistic",
+      "calibration": "platt",
+      "bin": 9,
+      "count": 273,
+      "mean_probability": 0.9514158176833556,
+      "observed_rate": 0.4652014652014652
+    },
+    {
+      "model": "logistic",
+      "calibration": "temperature",
+      "bin": 0,
+      "count": 566,
+      "mean_probability": 0.022778190782777784,
+      "observed_rate": 0.0017667844522968198
+    },
+    {
+      "model": "logistic",
+      "calibration": "temperature",
+      "bin": 1,
+      "count": 219,
+      "mean_probability": 0.1302622047774428,
+      "observed_rate": 0.0
+    },
+    {
+      "model": "logistic",
+      "calibration": "temperature",
+      "bin": 2,
+      "count": 75,
+      "mean_probability": 0.2606507117599998,
+      "observed_rate": 0.14666666666666667
+    },
+    {
+      "model": "logistic",
+      "calibration": "temperature",
+      "bin": 3,
+      "count": 195,
+      "mean_probability": 0.3447426990469322,
+      "observed_rate": 0.06153846153846154
+    },
+    {
+      "model": "logistic",
+      "calibration": "temperature",
+      "bin": 4,
+      "count": 110,
+      "mean_probability": 0.454808469252026,
+      "observed_rate": 0.5545454545454546
+    },
+    {
+      "model": "logistic",
+      "calibration": "temperature",
+      "bin": 5,
+      "count": 259,
+      "mean_probability": 0.5556279654889211,
+      "observed_rate": 0.5444015444015444
+    },
+    {
+      "model": "logistic",
+      "calibration": "temperature",
+      "bin": 6,
+      "count": 466,
+      "mean_probability": 0.6501300467282354,
+      "observed_rate": 0.5708154506437768
+    },
+    {
+      "model": "logistic",
+      "calibration": "temperature",
+      "bin": 7,
+      "count": 455,
+      "mean_probability": 0.7499786568330373,
+      "observed_rate": 0.44835164835164837
+    },
+    {
+      "model": "logistic",
+      "calibration": "temperature",
+      "bin": 8,
+      "count": 365,
+      "mean_probability": 0.8459281042573191,
+      "observed_rate": 0.4547945205479452
+    },
+    {
+      "model": "logistic",
+      "calibration": "temperature",
+      "bin": 9,
+      "count": 290,
+      "mean_probability": 0.9499032364966083,
+      "observed_rate": 0.45517241379310347
+    },
+    {
+      "model": "logistic",
+      "calibration": "isotonic",
+      "bin": 0,
+      "count": 1029,
+      "mean_probability": 0.009633991350352243,
+      "observed_rate": 0.01749271137026239
+    },
+    {
+      "model": "logistic",
+      "calibration": "isotonic",
+      "bin": 1,
+      "count": 6,
+      "mean_probability": 0.1560547264512102,
+      "observed_rate": 0.16666666666666666
+    },
+    {
+      "model": "logistic",
+      "calibration": "isotonic",
+      "bin": 2,
+      "count": 33,
+      "mean_probability": 0.2,
+      "observed_rate": 0.30303030303030304
+    },
+    {
+      "model": "logistic",
+      "calibration": "isotonic",
+      "bin": 4,
+      "count": 22,
+      "mean_probability": 0.46356955340752015,
+      "observed_rate": 0.6818181818181818
+    },
+    {
+      "model": "logistic",
+      "calibration": "isotonic",
+      "bin": 5,
+      "count": 6,
+      "mean_probability": 0.5579598523976115,
+      "observed_rate": 0.8333333333333334
+    },
+    {
+      "model": "logistic",
+      "calibration": "isotonic",
+      "bin": 6,
+      "count": 22,
+      "mean_probability": 0.6272014649048865,
+      "observed_rate": 0.5
+    },
+    {
+      "model": "logistic",
+      "calibration": "isotonic",
+      "bin": 7,
+      "count": 1290,
+      "mean_probability": 0.7959658254095592,
+      "observed_rate": 0.5186046511627908
+    },
+    {
+      "model": "logistic",
+      "calibration": "isotonic",
+      "bin": 8,
+      "count": 590,
+      "mean_probability": 0.818034126548438,
+      "observed_rate": 0.4457627118644068
+    },
+    {
+      "model": "logistic",
+      "calibration": "isotonic",
+      "bin": 9,
+      "count": 2,
+      "mean_probability": 1.0,
+      "observed_rate": 1.0
+    }
+  ],
+  "coverage": [
+    {
+      "model": "logistic",
+      "calibration": "raw",
+      "target_review": 0,
+      "threshold": 0.5,
+      "coverage": 1.0,
+      "review_count": 0,
+      "risk": 0.337
+    },
+    {
+      "model": "logistic",
+      "calibration": "raw",
+      "target_review": 0.05,
+      "threshold": 0.5588239585153837,
+      "coverage": 0.937,
+      "review_count": 189,
+      "risk": 0.32515119174670937
+    },
+    {
+      "model": "logistic",
+      "calibration": "raw",
+      "target_review": 0.1,
+      "threshold": 0.6053166853441373,
+      "coverage": 0.8816666666666667,
+      "review_count": 355,
+      "risk": 0.3153119092627599
+    },
+    {
+      "model": "logistic",
+      "calibration": "raw",
+      "target_review": 0.2,
+      "threshold": 0.661331376121729,
+      "coverage": 0.7796666666666666,
+      "review_count": 661,
+      "risk": 0.3142368533561351
+    },
+    {
+      "model": "logistic",
+      "calibration": "raw",
+      "target_review": 0.5,
+      "threshold": 0.827754642565628,
+      "coverage": 0.46166666666666667,
+      "review_count": 1615,
+      "risk": 0.24187725631768953
+    },
+    {
+      "model": "logistic",
+      "calibration": "platt",
+      "target_review": 0,
+      "threshold": 0.5,
+      "coverage": 1.0,
+      "review_count": 0,
+      "risk": 0.337
+    },
+    {
+      "model": "logistic",
+      "calibration": "platt",
+      "target_review": 0.05,
+      "threshold": 0.5479932270568202,
+      "coverage": 0.935,
+      "review_count": 195,
+      "risk": 0.3269162210338681
+    },
+    {
+      "model": "logistic",
+      "calibration": "platt",
+      "target_review": 0.1,
+      "threshold": 0.5878486267309252,
+      "coverage": 0.8793333333333333,
+      "review_count": 362,
+      "risk": 0.31842304776345715
+    },
+    {
+      "model": "logistic",
+      "calibration": "platt",
+      "target_review": 0.2,
+      "threshold": 0.6465499751278954,
+      "coverage": 0.7763333333333333,
+      "review_count": 671,
+      "risk": 0.3052812365822241
+    },
+    {
+      "model": "logistic",
+      "calibration": "platt",
+      "target_review": 0.5,
+      "threshold": 0.8039728754264848,
+      "coverage": 0.46266666666666667,
+      "review_count": 1612,
+      "risk": 0.23703170028818443
+    },
+    {
+      "model": "logistic",
+      "calibration": "temperature",
+      "target_review": 0,
+      "threshold": 0.5,
+      "coverage": 1.0,
+      "review_count": 0,
+      "risk": 0.337
+    },
+    {
+      "model": "logistic",
+      "calibration": "temperature",
+      "target_review": 0.05,
+      "threshold": 0.5542418115978591,
+      "coverage": 0.937,
+      "review_count": 189,
+      "risk": 0.32515119174670937
+    },
+    {
+      "model": "logistic",
+      "calibration": "temperature",
+      "target_review": 0.1,
+      "threshold": 0.5972642696293637,
+      "coverage": 0.8816666666666667,
+      "review_count": 355,
+      "risk": 0.3153119092627599
+    },
+    {
+      "model": "logistic",
+      "calibration": "temperature",
+      "target_review": 0.2,
+      "threshold": 0.6494611514267372,
+      "coverage": 0.7796666666666666,
+      "review_count": 661,
+      "risk": 0.3142368533561351
+    },
+    {
+      "model": "logistic",
+      "calibration": "temperature",
+      "target_review": 0.5,
+      "threshold": 0.8094600255305648,
+      "coverage": 0.46166666666666667,
+      "review_count": 1615,
+      "risk": 0.24187725631768953
+    },
+    {
+      "model": "logistic",
+      "calibration": "isotonic",
+      "target_review": 0,
+      "threshold": 0.5,
+      "coverage": 1.0,
+      "review_count": 0,
+      "risk": 0.33466666666666667
+    },
+    {
+      "model": "logistic",
+      "calibration": "isotonic",
+      "target_review": 0.05,
+      "threshold": 0.7888888888888889,
+      "coverage": 0.983,
+      "review_count": 51,
+      "risk": 0.3309596473380807
+    },
+    {
+      "model": "logistic",
+      "calibration": "isotonic",
+      "target_review": 0.1,
+      "threshold": 0.7974683544303798,
+      "coverage": 0.9076666666666666,
+      "review_count": 277,
+      "risk": 0.31876606683804626
+    },
+    {
+      "model": "logistic",
+      "calibration": "isotonic",
+      "target_review": 0.2,
+      "threshold": 0.7974683544303798,
+      "coverage": 0.9076666666666666,
+      "review_count": 277,
+      "risk": 0.31876606683804626
+    },
+    {
+      "model": "logistic",
+      "calibration": "isotonic",
+      "target_review": 0.5,
+      "threshold": 0.8235294117647058,
+      "coverage": 0.473,
+      "review_count": 1581,
+      "risk": 0.15997181113460182
+    }
+  ],
+  "run": {
+    "model": "logistic",
+    "status": "executed",
+    "seconds": 0.15888729299967963,
+    "checkpoint": "results/v02/research/logistic.joblib",
+    "checkpoint_sha256": "f816cca1ebdfeac944275b01439c9ffd638d5e4d746b7eb930b13defd69d4871",
+    "warnings": []
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "status": "passed",
+  "chromium": "138.0.7204.0",
+  "dataset_run": "research",
+  "sequence_graph_checked": true,
+  "viewport_widths": [
+    1380,
+    390
+  ],
+  "console_page_errors": [],
+  "feedback_store": "temporary isolated copy"
+}

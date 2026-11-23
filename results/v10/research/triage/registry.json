@@ -1,0 +1,49 @@
+{
+  "experiment_id": "E8-integrated-triage",
+  "code_version": "e4a3c0ff88bc1c7d9019e16a551ee0c559d9b9cccc35c96c40e27d58d67ca287",
+  "inputs": {
+    "results/v02/research/predictions.csv": "7dd9cb4107a12cebaa90f23568aa09b0e3c37c701e883b8825b0cb43993c527e"
+  },
+  "configuration": {
+    "policies": [
+      [
+        "raw_all",
+        "raw_probability",
+        0
+      ],
+      [
+        "cal_all",
+        "probability",
+        0
+      ],
+      [
+        "cal_70",
+        "probability",
+        0.7
+      ],
+      [
+        "cal_85",
+        "probability",
+        0.85
+      ],
+      [
+        "cal_95",
+        "probability",
+        0.95
+      ]
+    ],
+    "split": "upstream held-out predictions"
+  },
+  "environment": "Linux-6.18.57-x86_64-with-glibc2.41",
+  "python": "3.12.14",
+  "dependencies": "Python standard library",
+  "seed": null,
+  "status": "executed",
+  "results": "summary.json",
+  "runtime_seconds": 0.11034998899958737,
+  "artifacts": {
+    "decisions.csv": "52fbd6105a10479f7c7d544a075d0da51bfd0083ead98c8f7ae29a1937df7f08",
+    "reports.jsonl": "a23898c61b0fa6a547a2ec2ec8ba8dc4de1fb5d61501bfaf366e2749efb36caa",
+    "summary.json": "4de28dc46195b6eb58bf0eba46e2543362ee2a648ffa65fd91c47b5492f02c59"
+  }
+}

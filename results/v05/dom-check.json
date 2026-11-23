@@ -1,0 +1,14 @@
+{
+  "status": "passed",
+  "engine": "jsdom 26",
+  "sequenceGraphChecked": true,
+  "tests": [
+    "load stored results",
+    "model plots",
+    "queue",
+    "case report",
+    "fixture timeline",
+    "registry",
+    "navigation"
+  ]
+}

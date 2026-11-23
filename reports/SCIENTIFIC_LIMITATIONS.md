@@ -1,0 +1,9 @@
+# Scientific limitations
+
+The native flow estimand is the fraction of distinct, unambiguous, completed 19-feature vectors misclassified. The original on-wire event distribution is changed by projection, conflict removal and duplicate collapse. Site, host and clock identifiers needed for stronger separation are absent from the released native partitions. Terminating an attack, causal feature effects and performance on real enterprise networks are outside the observations.
+
+The NetFlow transfer experiment samples before deduplication, retains only eleven matching nonnegative aggregate measurements and uses binary labels. Conditioning on retained unique vectors changed both class prevalence and empirical sample size. Raw-flow population performance and transfer across several independent organizations would require new samples. The v3 pilot uses contiguous blocks; individual rows within a block can be dependent. Both versions derive from the same underlying named traffic collections.
+
+ADFA labels denote the collection directory. A process in an attack scenario can be benign. Syscall order is available within traces; elapsed time and host-level inter-process ordering are unavailable. The fusion follow-up reuses the same collection and attack families. Distinct attack scenario directories strengthen the split, but cannot establish generalization to new families, organizations or operating systems.
+
+Windowed false alarms, analyst minutes, inter-rater reliability and final human decision quality were never observed. Synthetic case keys are developer-authored. Real-flow labels are independently published for classification, but no independent analyst has assessed investigation sufficiency. A prospective blinded study would require a defined analyst population, matched tasks, task time, final decision correctness and randomized or counterbalanced condition assignment.

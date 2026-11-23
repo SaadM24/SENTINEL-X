@@ -1,0 +1,2 @@
+Environment bootstrap attempt: PYTHONPATH=src python -m pytest -q tests/unit/test_unsw_preparation.py
+Exit 1: No module named pytest. Installed pytest in a temporary target, then reran.

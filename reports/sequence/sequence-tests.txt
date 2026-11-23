@@ -1,0 +1,9 @@
+test_fixture_run_integrity (test_behaviour.TraceTests.test_fixture_run_integrity) ... ok
+test_group_exclusion (test_behaviour.TraceTests.test_group_exclusion) ... ok
+test_no_cross_trace_edges (test_behaviour.TraceTests.test_no_cross_trace_edges) ... ok
+test_order_and_unknowns (test_behaviour.TraceTests.test_order_and_unknowns) ... ok
+
+----------------------------------------------------------------------
+Ran 4 tests in 0.021s
+
+OK

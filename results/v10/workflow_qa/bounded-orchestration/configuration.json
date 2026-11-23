@@ -1,0 +1,8 @@
+{
+  "run": "local-work-research",
+  "mode": "research",
+  "seed": 42,
+  "full": false,
+  "device": "cpu",
+  "sequence": "adfa"
+}

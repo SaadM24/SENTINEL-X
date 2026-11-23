@@ -1,0 +1,11 @@
+{
+  "checked": 28,
+  "verified": [
+    "dataset and checkpoint hashes",
+    "replayed binary confusion counts",
+    "Brier scores",
+    "primary event IDs and predictions",
+    "coverage, error and realized review counts"
+  ],
+  "limitations": "Internal artifact and arithmetic audit. Collection independence and transportability untested."
+}

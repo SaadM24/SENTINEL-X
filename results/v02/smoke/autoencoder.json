@@ -1,0 +1,486 @@
+{
+  "scores": [
+    {
+      "model": "autoencoder",
+      "calibration": "raw",
+      "precision": 0.4,
+      "recall": 0.5283018867924528,
+      "f1": 0.45528455284552843,
+      "macro_f1": 0.5142664802444202,
+      "average_precision": 0.4243670662103567,
+      "pr_auc": 0.40971210500253225,
+      "roc_auc": 0.5306874864454566,
+      "tn": 45,
+      "fp": 42,
+      "fn": 25,
+      "tp": 28,
+      "brier": 0.31616497089031687,
+      "ece": 0.24310224089635857,
+      "fpr": 0.4827586206896552,
+      "false_alarms_per_1000": 482.7586206896552,
+      "microseconds_per_event": 0.9229642858242316
+    },
+    {
+      "model": "autoencoder",
+      "calibration": "platt",
+      "precision": 0.4444444444444444,
+      "recall": 0.07547169811320754,
+      "f1": 0.12903225806451613,
+      "macro_f1": 0.44066291802308377,
+      "average_precision": 0.4243670662103567,
+      "pr_auc": 0.40971210500253225,
+      "roc_auc": 0.5306874864454566,
+      "tn": 82,
+      "fp": 5,
+      "fn": 49,
+      "tp": 4,
+      "brier": 0.2382114179193539,
+      "ece": 0.05747376829718401,
+      "fpr": 0.05747126436781609,
+      "false_alarms_per_1000": 57.47126436781609,
+      "microseconds_per_event": 0.9229642858242316
+    },
+    {
+      "model": "autoencoder",
+      "calibration": "temperature",
+      "precision": 0.4,
+      "recall": 0.5283018867924528,
+      "f1": 0.45528455284552843,
+      "macro_f1": 0.5142664802444202,
+      "average_precision": 0.4243670662103567,
+      "pr_auc": 0.40971210500253225,
+      "roc_auc": 0.5306874864454566,
+      "tn": 45,
+      "fp": 42,
+      "fn": 25,
+      "tp": 28,
+      "brier": 0.2501049832087357,
+      "ece": 0.11972277491030492,
+      "fpr": 0.4827586206896552,
+      "false_alarms_per_1000": 482.7586206896552,
+      "microseconds_per_event": 0.9229642858242316
+    },
+    {
+      "model": "autoencoder",
+      "calibration": "isotonic",
+      "precision": 0.36363636363636365,
+      "recall": 0.1509433962264151,
+      "f1": 0.21333333333333335,
+      "macro_f1": 0.4627642276422764,
+      "average_precision": 0.39305908501857956,
+      "pr_auc": 0.37086288099357173,
+      "roc_auc": 0.49609629147690304,
+      "tn": 73,
+      "fp": 14,
+      "fn": 45,
+      "tp": 8,
+      "brier": 0.2584510054068702,
+      "ece": 0.1129772800728684,
+      "fpr": 0.16091954022988506,
+      "false_alarms_per_1000": 160.91954022988506,
+      "microseconds_per_event": 0.9229642858242316
+    }
+  ],
+  "reliability": [
+    {
+      "model": "autoencoder",
+      "calibration": "raw",
+      "bin": 0,
+      "count": 16,
+      "mean_probability": 0.06004901960784313,
+      "observed_rate": 0.4375
+    },
+    {
+      "model": "autoencoder",
+      "calibration": "raw",
+      "bin": 1,
+      "count": 14,
+      "mean_probability": 0.15126050420168066,
+      "observed_rate": 0.35714285714285715
+    },
+    {
+      "model": "autoencoder",
+      "calibration": "raw",
+      "bin": 2,
+      "count": 11,
+      "mean_probability": 0.2638146167557932,
+      "observed_rate": 0.18181818181818182
+    },
+    {
+      "model": "autoencoder",
+      "calibration": "raw",
+      "bin": 3,
+      "count": 18,
+      "mean_probability": 0.3502178649237473,
+      "observed_rate": 0.3333333333333333
+    },
+    {
+      "model": "autoencoder",
+      "calibration": "raw",
+      "bin": 4,
+      "count": 11,
+      "mean_probability": 0.43939393939393945,
+      "observed_rate": 0.45454545454545453
+    },
+    {
+      "model": "autoencoder",
+      "calibration": "raw",
+      "bin": 5,
+      "count": 17,
+      "mean_probability": 0.563437139561707,
+      "observed_rate": 0.29411764705882354
+    },
+    {
+      "model": "autoencoder",
+      "calibration": "raw",
+      "bin": 6,
+      "count": 15,
+      "mean_probability": 0.6611111111111112,
+      "observed_rate": 0.5333333333333333
+    },
+    {
+      "model": "autoencoder",
+      "calibration": "raw",
+      "bin": 7,
+      "count": 10,
+      "mean_probability": 0.7441176470588236,
+      "observed_rate": 0.6
+    },
+    {
+      "model": "autoencoder",
+      "calibration": "raw",
+      "bin": 8,
+      "count": 19,
+      "mean_probability": 0.8573271413828689,
+      "observed_rate": 0.2631578947368421
+    },
+    {
+      "model": "autoencoder",
+      "calibration": "raw",
+      "bin": 9,
+      "count": 9,
+      "mean_probability": 0.9460784313725491,
+      "observed_rate": 0.4444444444444444
+    },
+    {
+      "model": "autoencoder",
+      "calibration": "platt",
+      "bin": 2,
+      "count": 2,
+      "mean_probability": 0.28422628202151345,
+      "observed_rate": 0.0
+    },
+    {
+      "model": "autoencoder",
+      "calibration": "platt",
+      "bin": 3,
+      "count": 49,
+      "mean_probability": 0.36391303071506237,
+      "observed_rate": 0.3877551020408163
+    },
+    {
+      "model": "autoencoder",
+      "calibration": "platt",
+      "bin": 4,
+      "count": 80,
+      "mean_probability": 0.444174078430067,
+      "observed_rate": 0.375
+    },
+    {
+      "model": "autoencoder",
+      "calibration": "platt",
+      "bin": 5,
+      "count": 9,
+      "mean_probability": 0.5306319142439366,
+      "observed_rate": 0.4444444444444444
+    },
+    {
+      "model": "autoencoder",
+      "calibration": "temperature",
+      "bin": 3,
+      "count": 2,
+      "mean_probability": 0.3859655805857021,
+      "observed_rate": 0.0
+    },
+    {
+      "model": "autoencoder",
+      "calibration": "temperature",
+      "bin": 4,
+      "count": 68,
+      "mean_probability": 0.4642517828844761,
+      "observed_rate": 0.36764705882352944
+    },
+    {
+      "model": "autoencoder",
+      "calibration": "temperature",
+      "bin": 5,
+      "count": 68,
+      "mean_probability": 0.5321910744435614,
+      "observed_rate": 0.4117647058823529
+    },
+    {
+      "model": "autoencoder",
+      "calibration": "temperature",
+      "bin": 6,
+      "count": 2,
+      "mean_probability": 0.615571513982367,
+      "observed_rate": 0.0
+    },
+    {
+      "model": "autoencoder",
+      "calibration": "isotonic",
+      "bin": 1,
+      "count": 29,
+      "mean_probability": 0.18181818181818177,
+      "observed_rate": 0.3793103448275862
+    },
+    {
+      "model": "autoencoder",
+      "calibration": "isotonic",
+      "bin": 2,
+      "count": 1,
+      "mean_probability": 0.2278074866310161,
+      "observed_rate": 1.0
+    },
+    {
+      "model": "autoencoder",
+      "calibration": "isotonic",
+      "bin": 3,
+      "count": 1,
+      "mean_probability": 0.3197860962566844,
+      "observed_rate": 0.0
+    },
+    {
+      "model": "autoencoder",
+      "calibration": "isotonic",
+      "bin": 4,
+      "count": 87,
+      "mean_probability": 0.4117647058823531,
+      "observed_rate": 0.3793103448275862
+    },
+    {
+      "model": "autoencoder",
+      "calibration": "isotonic",
+      "bin": 5,
+      "count": 12,
+      "mean_probability": 0.5384615384615384,
+      "observed_rate": 0.25
+    },
+    {
+      "model": "autoencoder",
+      "calibration": "isotonic",
+      "bin": 6,
+      "count": 2,
+      "mean_probability": 0.6770833333333333,
+      "observed_rate": 0.5
+    },
+    {
+      "model": "autoencoder",
+      "calibration": "isotonic",
+      "bin": 7,
+      "count": 6,
+      "mean_probability": 0.7430555555555555,
+      "observed_rate": 0.6666666666666666
+    },
+    {
+      "model": "autoencoder",
+      "calibration": "isotonic",
+      "bin": 9,
+      "count": 2,
+      "mean_probability": 0.9500000000000002,
+      "observed_rate": 0.0
+    }
+  ],
+  "coverage": [
+    {
+      "model": "autoencoder",
+      "calibration": "raw",
+      "target_review": 0,
+      "threshold": 0.5,
+      "coverage": 1.0,
+      "review_count": 0,
+      "risk": 0.4785714285714286
+    },
+    {
+      "model": "autoencoder",
+      "calibration": "raw",
+      "target_review": 0.05,
+      "threshold": 0.5634803921568627,
+      "coverage": 0.9071428571428571,
+      "review_count": 13,
+      "risk": 0.4566929133858268
+    },
+    {
+      "model": "autoencoder",
+      "calibration": "raw",
+      "target_review": 0.1,
+      "threshold": 0.5975490196078431,
+      "coverage": 0.8071428571428572,
+      "review_count": 27,
+      "risk": 0.4424778761061947
+    },
+    {
+      "model": "autoencoder",
+      "calibration": "raw",
+      "target_review": 0.2,
+      "threshold": 0.6568627450980392,
+      "coverage": 0.6928571428571428,
+      "review_count": 43,
+      "risk": 0.4536082474226804
+    },
+    {
+      "model": "autoencoder",
+      "calibration": "raw",
+      "target_review": 0.5,
+      "threshold": 0.7426470588235294,
+      "coverage": 0.4785714285714286,
+      "review_count": 73,
+      "risk": 0.4925373134328358
+    },
+    {
+      "model": "autoencoder",
+      "calibration": "platt",
+      "target_review": 0,
+      "threshold": 0.5,
+      "coverage": 1.0,
+      "review_count": 0,
+      "risk": 0.38571428571428573
+    },
+    {
+      "model": "autoencoder",
+      "calibration": "platt",
+      "target_review": 0.05,
+      "threshold": 0.5091542299268343,
+      "coverage": 0.95,
+      "review_count": 7,
+      "risk": 0.3609022556390977
+    },
+    {
+      "model": "autoencoder",
+      "calibration": "platt",
+      "target_review": 0.1,
+      "threshold": 0.5158616150067602,
+      "coverage": 0.9,
+      "review_count": 14,
+      "risk": 0.373015873015873
+    },
+    {
+      "model": "autoencoder",
+      "calibration": "platt",
+      "target_review": 0.2,
+      "threshold": 0.5263587362977992,
+      "coverage": 0.85,
+      "review_count": 21,
+      "risk": 0.3865546218487395
+    },
+    {
+      "model": "autoencoder",
+      "calibration": "platt",
+      "target_review": 0.5,
+      "threshold": 0.5672187956769001,
+      "coverage": 0.6285714285714286,
+      "review_count": 52,
+      "risk": 0.3522727272727273
+    },
+    {
+      "model": "autoencoder",
+      "calibration": "temperature",
+      "target_review": 0,
+      "threshold": 0.5,
+      "coverage": 1.0,
+      "review_count": 0,
+      "risk": 0.4785714285714286
+    },
+    {
+      "model": "autoencoder",
+      "calibration": "temperature",
+      "target_review": 0.05,
+      "threshold": 0.5071459173471509,
+      "coverage": 0.9071428571428571,
+      "review_count": 13,
+      "risk": 0.4566929133858268
+    },
+    {
+      "model": "autoencoder",
+      "calibration": "temperature",
+      "target_review": 0.1,
+      "threshold": 0.511062550702126,
+      "coverage": 0.8071428571428572,
+      "review_count": 27,
+      "risk": 0.4424778761061947
+    },
+    {
+      "model": "autoencoder",
+      "calibration": "temperature",
+      "target_review": 0.2,
+      "threshold": 0.5181685397938056,
+      "coverage": 0.6928571428571428,
+      "review_count": 43,
+      "risk": 0.4536082474226804
+    },
+    {
+      "model": "autoencoder",
+      "calibration": "temperature",
+      "target_review": 0.5,
+      "threshold": 0.5296316354762836,
+      "coverage": 0.4785714285714286,
+      "review_count": 73,
+      "risk": 0.4925373134328358
+    },
+    {
+      "model": "autoencoder",
+      "calibration": "isotonic",
+      "target_review": 0,
+      "threshold": 0.5,
+      "coverage": 1.0,
+      "review_count": 0,
+      "risk": 0.42142857142857143
+    },
+    {
+      "model": "autoencoder",
+      "calibration": "isotonic",
+      "target_review": 0.05,
+      "threshold": 0.5384615384615384,
+      "coverage": 1.0,
+      "review_count": 0,
+      "risk": 0.42142857142857143
+    },
+    {
+      "model": "autoencoder",
+      "calibration": "isotonic",
+      "target_review": 0.1,
+      "threshold": 0.5384615384615384,
+      "coverage": 1.0,
+      "review_count": 0,
+      "risk": 0.42142857142857143
+    },
+    {
+      "model": "autoencoder",
+      "calibration": "isotonic",
+      "target_review": 0.2,
+      "threshold": 0.5882352941176471,
+      "coverage": 0.9142857142857143,
+      "review_count": 12,
+      "risk": 0.390625
+    },
+    {
+      "model": "autoencoder",
+      "calibration": "isotonic",
+      "target_review": 0.5,
+      "threshold": 0.5882352941176471,
+      "coverage": 0.9142857142857143,
+      "review_count": 12,
+      "risk": 0.390625
+    }
+  ],
+  "run": {
+    "model": "autoencoder",
+    "status": "executed",
+    "seconds": 0.043438368999886734,
+    "checkpoint": "results/v02/smoke/autoencoder.joblib",
+    "checkpoint_sha256": "e15137064aeba0217cdf87c00189784990f8eef73dd3496570d12c78bcc7fd00",
+    "warnings": [
+      "Stochastic Optimizer: Maximum iterations (18) reached and the optimization hasn't converged yet."
+    ]
+  }
+}

@@ -1,0 +1,3 @@
+# v0.2 — Detection and reliability
+
+The frozen detection protocol is in docs/protocols/DETECTION_PROTOCOL.md. Choose research-full for the full eligible benchmark or research for the bounded benchmark. Read reports/DETECTION_FINDINGS.md for results and limitations. Each directory has a machine-readable run specification, provenance/registry, serialized models, training warnings, test results for four probability maps, and a checkpoint replay audit. Coverage is the share automatically handled. Risk is the observed error among that share. Neither metric assumes perfect subsequent analyst decisions. The optional GPU backend was not executed.

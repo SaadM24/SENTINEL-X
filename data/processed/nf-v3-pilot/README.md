@@ -1,0 +1,5 @@
+# NetFlow v3 pilot provenance
+
+These are 3,200 projected observations per dataset, sampled in 32 seeded contiguous blocks of 100 from each v3 corpus. The source row index permits matching the sampled observation with the mirror. Only the eleven aggregate measurements, binary label and index are stored. Source and target were collected separately. See scripts/fetch_nf_pilot.py for the verified mirror revision and original features. Execute scripts/run_nf_shift.py using these two CSVs with --version v3-pilot and a fresh output path to replay offline. Each input file hash appears in results/external/nf-v3-pilot/metrics.json.
+
+The UQ catalogue describes collection and feature revisions. Academic use requires attribution. The mirror is a secondary source; its revision and sampled file hashes identify these exact observations. Neither UQ nor the mirror authors evaluated SENTINEL-X. [Publisher](https://staff.itee.uq.edu.au/marius/NIDS_datasets/) · [Mirror](https://huggingface.co/datasets/keys-i/netFlow/tree/59b97b2fa47e2ce45488812289c83adefe877355)

@@ -1,0 +1,107 @@
+{
+  "sources": {
+    "nf-unsw-nb15-v2.zip": {
+      "bytes": 37060516,
+      "categories": {
+        "Benign": 2295222,
+        "Fuzzers": 22310,
+        "Exploits": 31551,
+        "Reconnaissance": 12779,
+        "Generic": 16560,
+        "DoS": 5794,
+        "Shellcode": 1427,
+        "Backdoor": 2169,
+        "Worms": 164,
+        "Analysis": 2299
+      },
+      "total": 2390275,
+      "attack": 95053,
+      "unique_label_definition": "Benign iff Label equals zero on every row"
+    },
+    "nf-cse-cic-ids2018-v2.zip": {
+      "bytes": 672361898,
+      "categories": {
+        "Benign": 16635567,
+        "DDOS attack-HOIC": 1080858,
+        "DoS attacks-Hulk": 432648,
+        "DDoS attacks-LOIC-HTTP": 307300,
+        "Bot": 143097,
+        "Infilteration": 116361,
+        "SSH-Bruteforce": 94979,
+        "DoS attacks-GoldenEye": 27723,
+        "FTP-BruteForce": 25933,
+        "DoS attacks-SlowHTTPTest": 14116,
+        "DoS attacks-Slowloris": 9512,
+        "Brute Force -Web": 2143,
+        "DDOS attack-LOIC-UDP": 2112,
+        "Brute Force -XSS": 927,
+        "SQL Injection": 432
+      },
+      "total": 18893708,
+      "attack": 2258141,
+      "unique_label_definition": "Benign iff Label equals zero on every row"
+    }
+  },
+  "conditional_intervals": {
+    "seed": 119,
+    "draws": 500,
+    "interval": "2.5% and 97.5% sample percentiles, independent within-class resampling by cohort",
+    "scope": "Conditional on fitted model, selected records, fixed empirical prevalence and independent vectors. No host grouping, retraining or future-site uncertainty.",
+    "intervals": {
+      "within_source": {
+        "roc_auc": [
+          0.8677410893589389,
+          0.9060126534710614
+        ],
+        "average_precision": [
+          0.515455681727679,
+          0.6190994922691588
+        ],
+        "brier": [
+          0.09764700624738025,
+          0.11137348480375445
+        ],
+        "fpr": [
+          0.03581136738056013,
+          0.059740527182866536
+        ]
+      },
+      "external": {
+        "roc_auc": [
+          0.28939443041742197,
+          0.30653983415072417
+        ],
+        "average_precision": [
+          0.16593950526556447,
+          0.169186389905713
+        ],
+        "brier": [
+          0.32712439063880516,
+          0.3333133719252391
+        ],
+        "fpr": [
+          0.6495866081453506,
+          0.6678090231703583
+        ]
+      },
+      "external_minus_within": {
+        "roc_auc": [
+          -0.610856982411283,
+          -0.5691402012096917
+        ],
+        "average_precision": [
+          -0.4515386392359601,
+          -0.34746145186664873
+        ],
+        "brier": [
+          0.21752781766043874,
+          0.23313216151026467
+        ],
+        "fpr": [
+          0.5962017526630803,
+          0.6257917058965871
+        ]
+      }
+    }
+  }
+}

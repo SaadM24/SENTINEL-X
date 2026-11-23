@@ -1,0 +1,4 @@
+/bin/bash: line 1: /usr/bin/time: No such file or directory
+/workspace/scratch/2ece5c78fa2f/SENTINEL-X/data/processed/research-full
+Elapsed seconds: 8.093732643999829
+Linux child peak RSS, KiB: 18900

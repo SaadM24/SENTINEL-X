@@ -1,0 +1,23 @@
+{
+  "v03": {
+    "all_derived_hashes_match": true,
+    "files": {
+      "model.json": "a20829282bf55c5966e6223a5b79763086c3c1f59fc333f96bd58be577bb3642",
+      "partitions.csv": "4e4872587975b1d2a6f01ee6fbb343ebba888c30b538e38e76bf1fdecbf4a6ce",
+      "scores.csv": "45b4e514ca08e71d714f9494498622f796c57912eadeee84ba09b1e141638800",
+      "summary.json": "c896d650e5e13082eed1b01261e6bae6c8bdd47c3ffd5ec15ed464a7c97b85f3",
+      "transitions.csv": "4dd88ee86ea032c5f3f16f099cbf6c06755fa5b694f53b4e53e1fd56da4b0b85"
+    },
+    "duration_repeat_s": 1.5444179240002995
+  },
+  "v03_fusion": {
+    "all_derived_hashes_match": true,
+    "files": {
+      "model.json": "5391f022df5397ebd5a793ef9915f3fa5fc070c6ff36f5600cac3e9a109a3784",
+      "partitions.csv": "f8c2f1d73ff7e87c83d1773a5608bab4ed8a92f0ef3798657284903664b0ac68",
+      "scores.csv": "a727478468ea621aa2b1978b64d2b2e2e6e29c7d6dec04838a6414692aa26b28",
+      "summary.json": "fc7411eaa3f276e3a4770177e18f71d8d9f0abf49f6a85aaf6305d316ec8985c"
+    },
+    "duration_repeat_s": 1.4661326979994556
+  }
+}

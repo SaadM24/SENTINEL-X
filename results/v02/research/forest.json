@@ -1,0 +1,588 @@
+{
+  "scores": [
+    {
+      "model": "forest",
+      "calibration": "raw",
+      "precision": 0.6150326797385621,
+      "recall": 0.9466800804828974,
+      "f1": 0.7456418383518225,
+      "macro_f1": 0.7804733932840815,
+      "average_precision": 0.8809806995292369,
+      "pr_auc": 0.8809200697401304,
+      "roc_auc": 0.9319004756354677,
+      "tn": 1417,
+      "fp": 589,
+      "fn": 53,
+      "tp": 941,
+      "brier": 0.13459049650351732,
+      "ece": 0.12762252776637462,
+      "fpr": 0.29361914257228316,
+      "false_alarms_per_1000": 293.6191425722831,
+      "microseconds_per_event": 7.229628000156178
+    },
+    {
+      "model": "forest",
+      "calibration": "platt",
+      "precision": 0.5988700564971752,
+      "recall": 0.959758551307847,
+      "f1": 0.7375338229609586,
+      "macro_f1": 0.769294306733922,
+      "average_precision": 0.8809806995292369,
+      "pr_auc": 0.8809200697401304,
+      "roc_auc": 0.9319004756354677,
+      "tn": 1367,
+      "fp": 639,
+      "fn": 40,
+      "tp": 954,
+      "brier": 0.14414445520972333,
+      "ece": 0.14395767212820887,
+      "fpr": 0.3185443668993021,
+      "false_alarms_per_1000": 318.5443668993021,
+      "microseconds_per_event": 7.229628000156178
+    },
+    {
+      "model": "forest",
+      "calibration": "temperature",
+      "precision": 0.6150326797385621,
+      "recall": 0.9466800804828974,
+      "f1": 0.7456418383518225,
+      "macro_f1": 0.7804733932840815,
+      "average_precision": 0.8809806995292369,
+      "pr_auc": 0.8809200697401304,
+      "roc_auc": 0.9319004756354677,
+      "tn": 1417,
+      "fp": 589,
+      "fn": 53,
+      "tp": 941,
+      "brier": 0.13860671127467353,
+      "ece": 0.1343435926767176,
+      "fpr": 0.29361914257228316,
+      "false_alarms_per_1000": 293.6191425722831,
+      "microseconds_per_event": 7.229628000156178
+    },
+    {
+      "model": "forest",
+      "calibration": "isotonic",
+      "precision": 0.6030534351145038,
+      "recall": 0.9537223340040242,
+      "f1": 0.7388932190179267,
+      "macro_f1": 0.7718927364746011,
+      "average_precision": 0.8625922563183033,
+      "pr_auc": 0.8783186796335926,
+      "roc_auc": 0.9281782419341573,
+      "tn": 1382,
+      "fp": 624,
+      "fn": 46,
+      "tp": 948,
+      "brier": 0.1482986278258318,
+      "ece": 0.14997457702047925,
+      "fpr": 0.31106679960119643,
+      "false_alarms_per_1000": 311.0667996011964,
+      "microseconds_per_event": 7.229628000156178
+    }
+  ],
+  "reliability": [
+    {
+      "model": "forest",
+      "calibration": "raw",
+      "bin": 0,
+      "count": 1169,
+      "mean_probability": 0.002241955910712022,
+      "observed_rate": 0.003421727972626176
+    },
+    {
+      "model": "forest",
+      "calibration": "raw",
+      "bin": 1,
+      "count": 36,
+      "mean_probability": 0.15236809571763982,
+      "observed_rate": 0.16666666666666666
+    },
+    {
+      "model": "forest",
+      "calibration": "raw",
+      "bin": 2,
+      "count": 56,
+      "mean_probability": 0.255786926719287,
+      "observed_rate": 0.125
+    },
+    {
+      "model": "forest",
+      "calibration": "raw",
+      "bin": 3,
+      "count": 77,
+      "mean_probability": 0.35573572994227287,
+      "observed_rate": 0.12987012987012986
+    },
+    {
+      "model": "forest",
+      "calibration": "raw",
+      "bin": 4,
+      "count": 132,
+      "mean_probability": 0.45485288863516193,
+      "observed_rate": 0.19696969696969696
+    },
+    {
+      "model": "forest",
+      "calibration": "raw",
+      "bin": 5,
+      "count": 180,
+      "mean_probability": 0.552874541683249,
+      "observed_rate": 0.29444444444444445
+    },
+    {
+      "model": "forest",
+      "calibration": "raw",
+      "bin": 6,
+      "count": 201,
+      "mean_probability": 0.644731464640337,
+      "observed_rate": 0.26865671641791045
+    },
+    {
+      "model": "forest",
+      "calibration": "raw",
+      "bin": 7,
+      "count": 231,
+      "mean_probability": 0.7528449606968698,
+      "observed_rate": 0.4199134199134199
+    },
+    {
+      "model": "forest",
+      "calibration": "raw",
+      "bin": 8,
+      "count": 249,
+      "mean_probability": 0.8475118684520939,
+      "observed_rate": 0.5742971887550201
+    },
+    {
+      "model": "forest",
+      "calibration": "raw",
+      "bin": 9,
+      "count": 669,
+      "mean_probability": 0.9703606842177338,
+      "observed_rate": 0.8878923766816144
+    },
+    {
+      "model": "forest",
+      "calibration": "platt",
+      "bin": 0,
+      "count": 1169,
+      "mean_probability": 0.002048069959236988,
+      "observed_rate": 0.003421727972626176
+    },
+    {
+      "model": "forest",
+      "calibration": "platt",
+      "bin": 1,
+      "count": 33,
+      "mean_probability": 0.15397776277502306,
+      "observed_rate": 0.18181818181818182
+    },
+    {
+      "model": "forest",
+      "calibration": "platt",
+      "bin": 2,
+      "count": 48,
+      "mean_probability": 0.2594281451284926,
+      "observed_rate": 0.125
+    },
+    {
+      "model": "forest",
+      "calibration": "platt",
+      "bin": 3,
+      "count": 63,
+      "mean_probability": 0.35657108334895155,
+      "observed_rate": 0.12698412698412698
+    },
+    {
+      "model": "forest",
+      "calibration": "platt",
+      "bin": 4,
+      "count": 94,
+      "mean_probability": 0.453961330788866,
+      "observed_rate": 0.1702127659574468
+    },
+    {
+      "model": "forest",
+      "calibration": "platt",
+      "bin": 5,
+      "count": 160,
+      "mean_probability": 0.5503315343003589,
+      "observed_rate": 0.26875
+    },
+    {
+      "model": "forest",
+      "calibration": "platt",
+      "bin": 6,
+      "count": 208,
+      "mean_probability": 0.6509761274905264,
+      "observed_rate": 0.27884615384615385
+    },
+    {
+      "model": "forest",
+      "calibration": "platt",
+      "bin": 7,
+      "count": 217,
+      "mean_probability": 0.7572969961848147,
+      "observed_rate": 0.3456221198156682
+    },
+    {
+      "model": "forest",
+      "calibration": "platt",
+      "bin": 8,
+      "count": 278,
+      "mean_probability": 0.854029051189778,
+      "observed_rate": 0.5323741007194245
+    },
+    {
+      "model": "forest",
+      "calibration": "platt",
+      "bin": 9,
+      "count": 730,
+      "mean_probability": 0.9733561337236923,
+      "observed_rate": 0.863013698630137
+    },
+    {
+      "model": "forest",
+      "calibration": "temperature",
+      "bin": 0,
+      "count": 1176,
+      "mean_probability": 0.0019444529214671326,
+      "observed_rate": 0.004251700680272109
+    },
+    {
+      "model": "forest",
+      "calibration": "temperature",
+      "bin": 1,
+      "count": 38,
+      "mean_probability": 0.14733839370871243,
+      "observed_rate": 0.15789473684210525
+    },
+    {
+      "model": "forest",
+      "calibration": "temperature",
+      "bin": 2,
+      "count": 60,
+      "mean_probability": 0.2507996171930721,
+      "observed_rate": 0.13333333333333333
+    },
+    {
+      "model": "forest",
+      "calibration": "temperature",
+      "bin": 3,
+      "count": 71,
+      "mean_probability": 0.3519789249466104,
+      "observed_rate": 0.11267605633802817
+    },
+    {
+      "model": "forest",
+      "calibration": "temperature",
+      "bin": 4,
+      "count": 125,
+      "mean_probability": 0.45215596236437217,
+      "observed_rate": 0.208
+    },
+    {
+      "model": "forest",
+      "calibration": "temperature",
+      "bin": 5,
+      "count": 152,
+      "mean_probability": 0.5508965265974989,
+      "observed_rate": 0.3092105263157895
+    },
+    {
+      "model": "forest",
+      "calibration": "temperature",
+      "bin": 6,
+      "count": 192,
+      "mean_probability": 0.6444715792881647,
+      "observed_rate": 0.2552083333333333
+    },
+    {
+      "model": "forest",
+      "calibration": "temperature",
+      "bin": 7,
+      "count": 200,
+      "mean_probability": 0.7534374204531733,
+      "observed_rate": 0.395
+    },
+    {
+      "model": "forest",
+      "calibration": "temperature",
+      "bin": 8,
+      "count": 266,
+      "mean_probability": 0.8516615269145332,
+      "observed_rate": 0.5300751879699248
+    },
+    {
+      "model": "forest",
+      "calibration": "temperature",
+      "bin": 9,
+      "count": 720,
+      "mean_probability": 0.9745195446004737,
+      "observed_rate": 0.8680555555555556
+    },
+    {
+      "model": "forest",
+      "calibration": "isotonic",
+      "bin": 0,
+      "count": 1201,
+      "mean_probability": 0.00010296289547126765,
+      "observed_rate": 0.00749375520399667
+    },
+    {
+      "model": "forest",
+      "calibration": "isotonic",
+      "bin": 2,
+      "count": 1,
+      "mean_probability": 0.21774350011843902,
+      "observed_rate": 1.0
+    },
+    {
+      "model": "forest",
+      "calibration": "isotonic",
+      "bin": 3,
+      "count": 225,
+      "mean_probability": 0.3636363636363636,
+      "observed_rate": 0.16
+    },
+    {
+      "model": "forest",
+      "calibration": "isotonic",
+      "bin": 4,
+      "count": 1,
+      "mean_probability": 0.49307897180361004,
+      "observed_rate": 0.0
+    },
+    {
+      "model": "forest",
+      "calibration": "isotonic",
+      "bin": 5,
+      "count": 1,
+      "mean_probability": 0.5750888521112499,
+      "observed_rate": 1.0
+    },
+    {
+      "model": "forest",
+      "calibration": "isotonic",
+      "bin": 6,
+      "count": 349,
+      "mean_probability": 0.6329732391820634,
+      "observed_rate": 0.2722063037249284
+    },
+    {
+      "model": "forest",
+      "calibration": "isotonic",
+      "bin": 7,
+      "count": 38,
+      "mean_probability": 0.7642343956961622,
+      "observed_rate": 0.18421052631578946
+    },
+    {
+      "model": "forest",
+      "calibration": "isotonic",
+      "bin": 8,
+      "count": 601,
+      "mean_probability": 0.8548836436134498,
+      "observed_rate": 0.5058236272878536
+    },
+    {
+      "model": "forest",
+      "calibration": "isotonic",
+      "bin": 9,
+      "count": 583,
+      "mean_probability": 0.9893573305977108,
+      "observed_rate": 0.9279588336192109
+    }
+  ],
+  "coverage": [
+    {
+      "model": "forest",
+      "calibration": "raw",
+      "target_review": 0,
+      "threshold": 0.5,
+      "coverage": 1.0,
+      "review_count": 0,
+      "risk": 0.214
+    },
+    {
+      "model": "forest",
+      "calibration": "raw",
+      "target_review": 0.05,
+      "threshold": 0.5655266339418347,
+      "coverage": 0.9326666666666666,
+      "review_count": 202,
+      "risk": 0.1937097927090779
+    },
+    {
+      "model": "forest",
+      "calibration": "raw",
+      "target_review": 0.1,
+      "threshold": 0.6338382515194116,
+      "coverage": 0.8573333333333333,
+      "review_count": 428,
+      "risk": 0.1625194401244168
+    },
+    {
+      "model": "forest",
+      "calibration": "raw",
+      "target_review": 0.2,
+      "threshold": 0.7857403828439562,
+      "coverage": 0.7236666666666667,
+      "review_count": 829,
+      "risk": 0.09995393827729157
+    },
+    {
+      "model": "forest",
+      "calibration": "raw",
+      "target_review": 0.5,
+      "threshold": 0.99,
+      "coverage": 0.4483333333333333,
+      "review_count": 1655,
+      "risk": 0.0007434944237918215
+    },
+    {
+      "model": "forest",
+      "calibration": "platt",
+      "target_review": 0,
+      "threshold": 0.5,
+      "coverage": 1.0,
+      "review_count": 0,
+      "risk": 0.22633333333333333
+    },
+    {
+      "model": "forest",
+      "calibration": "platt",
+      "target_review": 0.05,
+      "threshold": 0.5863294390526649,
+      "coverage": 0.9246666666666666,
+      "review_count": 226,
+      "risk": 0.20187454938716654
+    },
+    {
+      "model": "forest",
+      "calibration": "platt",
+      "target_review": 0.1,
+      "threshold": 0.6633351059967697,
+      "coverage": 0.8546666666666667,
+      "review_count": 436,
+      "risk": 0.17199687987519502
+    },
+    {
+      "model": "forest",
+      "calibration": "platt",
+      "target_review": 0.2,
+      "threshold": 0.8226974300358972,
+      "coverage": 0.721,
+      "review_count": 837,
+      "risk": 0.10032362459546926
+    },
+    {
+      "model": "forest",
+      "calibration": "platt",
+      "target_review": 0.5,
+      "threshold": 0.9934234894714842,
+      "coverage": 0.44466666666666665,
+      "review_count": 1666,
+      "risk": 0.0007496251874062968
+    },
+    {
+      "model": "forest",
+      "calibration": "temperature",
+      "target_review": 0,
+      "threshold": 0.5,
+      "coverage": 1.0,
+      "review_count": 0,
+      "risk": 0.214
+    },
+    {
+      "model": "forest",
+      "calibration": "temperature",
+      "target_review": 0.05,
+      "threshold": 0.5739024925669375,
+      "coverage": 0.9326666666666666,
+      "review_count": 202,
+      "risk": 0.1937097927090779
+    },
+    {
+      "model": "forest",
+      "calibration": "temperature",
+      "target_review": 0.1,
+      "threshold": 0.6501818803680663,
+      "coverage": 0.8573333333333333,
+      "review_count": 428,
+      "risk": 0.1625194401244168
+    },
+    {
+      "model": "forest",
+      "calibration": "temperature",
+      "target_review": 0.2,
+      "threshold": 0.8127319251810612,
+      "coverage": 0.7236666666666667,
+      "review_count": 829,
+      "risk": 0.09995393827729157
+    },
+    {
+      "model": "forest",
+      "calibration": "temperature",
+      "target_review": 0.5,
+      "threshold": 0.9944627272088947,
+      "coverage": 0.444,
+      "review_count": 1668,
+      "risk": 0.0007507507507507507
+    },
+    {
+      "model": "forest",
+      "calibration": "isotonic",
+      "target_review": 0,
+      "threshold": 0.5,
+      "coverage": 1.0,
+      "review_count": 0,
+      "risk": 0.22333333333333333
+    },
+    {
+      "model": "forest",
+      "calibration": "isotonic",
+      "target_review": 0.05,
+      "threshold": 0.6363636363636364,
+      "coverage": 0.9383333333333334,
+      "review_count": 185,
+      "risk": 0.19040852575488454
+    },
+    {
+      "model": "forest",
+      "calibration": "isotonic",
+      "target_review": 0.1,
+      "threshold": 0.6595744680851063,
+      "coverage": 0.862,
+      "review_count": 414,
+      "risk": 0.19296210363495747
+    },
+    {
+      "model": "forest",
+      "calibration": "isotonic",
+      "target_review": 0.2,
+      "threshold": 0.8461538461538461,
+      "coverage": 0.7426666666666667,
+      "review_count": 772,
+      "risk": 0.11131059245960502
+    },
+    {
+      "model": "forest",
+      "calibration": "isotonic",
+      "target_review": 0.5,
+      "threshold": 1.0,
+      "coverage": 0.4676666666666667,
+      "review_count": 1597,
+      "risk": 0.007127583749109052
+    }
+  ],
+  "run": {
+    "model": "forest",
+    "status": "executed",
+    "seconds": 1.4206238970000413,
+    "checkpoint": "results/v02/research/forest.joblib",
+    "checkpoint_sha256": "0d8b3b62afbc6f3ffa798cea829b4ada373b9d1fe4fbf904d18e1605f08991db",
+    "warnings": []
+  }
+}

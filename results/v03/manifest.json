@@ -1,0 +1,39 @@
+{
+  "configuration": {
+    "alpha": 0.5,
+    "archive_sha256": "58d625470749344843a7f730b0875ce9b8769f6fa48f18dc4a92bd07c342ead5",
+    "calibration_quantile": 0.95,
+    "dataset": "adfa",
+    "fixture_seed": 216,
+    "module_sha256": {
+      "__init__.py": "b77d60b615bc367843cab80bbffb3465298cf2dfb59405593f14f3c80b9c7917",
+      "__main__.py": "2c0813524e6bea9a2b66a2f7660c2b2ab8665c930ceecf6dd530489855907335",
+      "dataset.py": "0f19f26d274f40fd7a90db659ad36accfefdc9ee29349040ead5cf4265a4a349",
+      "model.py": "88fb691091463d7dde2750344ca5519bcadca7a20f5fc51d4a0a2a9b913eb359"
+    }
+  },
+  "duration_s": 1.52815502500016,
+  "environment": {
+    "numpy": "2.3.5",
+    "platform": "Linux-6.18.57-x86_64-with-glibc2.41",
+    "python": "3.12.14",
+    "sklearn": "1.8.0"
+  },
+  "experiment_id": "E4-adfa",
+  "files": {
+    "model.json": "a20829282bf55c5966e6223a5b79763086c3c1f59fc333f96bd58be577bb3642",
+    "partitions.csv": "4e4872587975b1d2a6f01ee6fbb343ebba888c30b538e38e76bf1fdecbf4a6ce",
+    "scores.csv": "45b4e514ca08e71d714f9494498622f796c57912eadeee84ba09b1e141638800",
+    "summary.json": "c896d650e5e13082eed1b01261e6bae6c8bdd47c3ffd5ec15ed464a7c97b85f3",
+    "transitions.csv": "4dd88ee86ea032c5f3f16f099cbf6c06755fa5b694f53b4e53e1fd56da4b0b85"
+  },
+  "limitations": [
+    "scenario-level weak labels",
+    "no wall-clock time",
+    "dependent processes within scenario"
+  ],
+  "metrics": "summary.json",
+  "split_protocol": "docs/protocols/SEQUENCE_PROTOCOL.md",
+  "status": "executed",
+  "url": "https://raw.githubusercontent.com/verazuo/a-labelled-version-of-the-ADFA-LD-dataset/68bedf561f7b7abe9954a3ddc22dbf24c0d42372/ADFA-LD.zip"
+}

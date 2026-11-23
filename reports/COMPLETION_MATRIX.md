@@ -1,0 +1,13 @@
+# Release and component acceptance
+
+| Release and component | Implemented and exercised | Evidence | Remaining work |
+|---|---|---|---|
+| v0.1 / A. Dataset engineering | Real native flow intake, schema, disk-backed duplicate/conflict audit, full and bounded partitions, pinned bytes | 132,175 eligible vectors; both source file sizes and full label distributions checked. NetFlow v2 full counts audited separately. | No reliable native event-time or host-group split. |
+| v0.1 / B. Classical detection | Four CPU baselines, fixed configuration, primary outputs and checkpoints | Full 44,759-vector test and three bounded seeds | Other collectors and hyperparameter searches are outside this comparison. |
+| v0.2 / B and D. Neural and trustworthy ML | MLP, autoencoder, radial-basis classifier; four score mappings, thresholds, signed coefficients, permutation attribution | Seven CPU families total, 28 model/maps per run, checkpoint replay, transformed-overlap sensitivity | CUDA implemented, unexecuted. Reported optimizer warnings retained. |
+| v0.3 / C. Behaviour | Real ADFA-LD sequences, smoothed Markov and unigram densities, supervised fusion, inspectable transitions | Six sequence/fusion tests; metric recomputation and exact repeat outputs | Directory labels are weak. State merging with FlexFringe was reviewed in literature; the implemented model is first-order Markov. |
+| v0.4 / E. Investigation | Offline retrieval, event citation, timeline, abstention, optional constrained local reranker and review scorer | 8 synthetic cases, 3 conditions, 24 blinded units; real-flow negative control. Provider contract tested. | No live model-provider comparison or independent human adjudication. |
+| v0.5 / F. Dashboard | Complete loopback HTTP app, queue, evidence drill-down, persistence, models, calibration, sequence and experiment views | Four HTTP integration tests, DOM check, desktop/mobile Chromium interaction including feedback | Native Windows launch and analyst usability study pending. |
+| v1.0 / Integration | Full flow triage, native-v2 external transfer, v3 pilot, seed and ablation evidence, all scripts, final reports | Full triage produced cited technical observations for 25,755 review cases. Clean Linux install + smoke; bounded real workflow and resume succeeded. | Human decision accuracy/time, multi-site operational performance and external replication unmeasured. |
+
+Each row's software status is implemented and tested on its stated CPU path. Optional CUDA and live-provider execution are implemented but await execution. Human-facing research endpoints remain incomplete. Per-component test logs, case records and exception details accompany the code.

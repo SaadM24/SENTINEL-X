@@ -1,0 +1,12 @@
+{
+  "completion_matrix": "reports/COMPLETION_MATRIX.md",
+  "logical_releases": [
+    "v01",
+    "v02",
+    "v03",
+    "v04",
+    "v05",
+    "v10"
+  ],
+  "source_sha256": "c54dc9778a68c0f701f02f7b1ae561fde206a3c908fd937c6792e222af3215cd"
+}

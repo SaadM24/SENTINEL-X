@@ -1,0 +1,63 @@
+{
+  "dataset": "synthetic smoke fixture",
+  "model": "logistic",
+  "policies": {
+    "raw_all": {
+      "n": 140,
+      "escalated": 0,
+      "escalated_errors": 0,
+      "automatic_errors": 43,
+      "errors": 43,
+      "coverage": 1.0,
+      "automatic_risk": 0.30714285714285716,
+      "unnecessary_escalations": 0
+    },
+    "cal_all": {
+      "n": 140,
+      "escalated": 0,
+      "escalated_errors": 0,
+      "automatic_errors": 45,
+      "errors": 45,
+      "coverage": 1.0,
+      "automatic_risk": 0.32142857142857145,
+      "unnecessary_escalations": 0
+    },
+    "cal_70": {
+      "n": 140,
+      "escalated": 64,
+      "escalated_errors": 30,
+      "automatic_errors": 15,
+      "errors": 45,
+      "coverage": 0.5428571428571428,
+      "automatic_risk": 0.19736842105263158,
+      "unnecessary_escalations": 34
+    },
+    "cal_85": {
+      "n": 140,
+      "escalated": 124,
+      "escalated_errors": 42,
+      "automatic_errors": 3,
+      "errors": 45,
+      "coverage": 0.11428571428571428,
+      "automatic_risk": 0.1875,
+      "unnecessary_escalations": 82
+    },
+    "cal_95": {
+      "n": 140,
+      "escalated": 139,
+      "escalated_errors": 45,
+      "automatic_errors": 0,
+      "errors": 45,
+      "coverage": 0.007142857142857143,
+      "automatic_risk": 0.0,
+      "unnecessary_escalations": 94
+    }
+  },
+  "fixed_threshold_report_ablation": {
+    "cases": 124,
+    "claims": 248,
+    "verifiable_claims_with_citations": 248,
+    "verifiable_claims_after_stripping_citations": 0
+  },
+  "limitations": "Score and model metadata only. Reviewer time, reviewer accuracy and root cause unmeasured."
+}

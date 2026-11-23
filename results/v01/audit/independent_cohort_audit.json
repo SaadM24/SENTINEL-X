@@ -1,0 +1,65 @@
+[
+  {
+    "scope": "Schema, SHA-256, record IDs, category/label mapping, distribution, unique numeric feature vectors across all released partitions",
+    "cohort": "smoke",
+    "sha256": "29c3229adf1f476ace4c4e148d5ea5a6c41f2b5d940b2be44e61c085be1e9648",
+    "distinct_ids": 560,
+    "distinct_feature_vectors": 560,
+    "class_counts": {
+      "train": {
+        "0": 203,
+        "1": 117
+      },
+      "cal": {
+        "1": 43,
+        "0": 57
+      },
+      "test": {
+        "1": 53,
+        "0": 87
+      }
+    }
+  },
+  {
+    "scope": "Schema, SHA-256, record IDs, category/label mapping, distribution, unique numeric feature vectors across all released partitions",
+    "cohort": "research",
+    "sha256": "cb8471593b74b70f5acc9e894d0a2cef436426f9de83155311900ea97a385ed2",
+    "distinct_ids": 10500,
+    "distinct_feature_vectors": 10500,
+    "class_counts": {
+      "train": {
+        "0": 3256,
+        "1": 2744
+      },
+      "cal": {
+        "0": 794,
+        "1": 706
+      },
+      "test": {
+        "0": 2006,
+        "1": 994
+      }
+    }
+  },
+  {
+    "scope": "Schema, SHA-256, record IDs, category/label mapping, distribution, unique numeric feature vectors across all released partitions",
+    "cohort": "research-full",
+    "sha256": "acff70a4767c397d7d75f2d4771c8df72bf7f1a5b1d9d90a1eea2ed78f4357b3",
+    "distinct_ids": 132175,
+    "distinct_feature_vectors": 132175,
+    "class_counts": {
+      "train": {
+        "0": 37919,
+        "1": 32102
+      },
+      "cal": {
+        "0": 9460,
+        "1": 7935
+      },
+      "test": {
+        "0": 30049,
+        "1": 14710
+      }
+    }
+  }
+]

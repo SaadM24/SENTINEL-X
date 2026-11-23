@@ -1,0 +1,22 @@
+{
+  "files": {
+    "docs/architecture/DASHBOARD.md": "c253b73fc3f94b949660697e67c15d052978494669af7b4f4f29a5d916e2093f",
+    "results/v05/browser-check.json": "c626e27f94a2ee2910fda0f00e672432268923fb9ac7ca8f68c9ef46cb7e4b6e",
+    "results/v05/browser-check.log": "258eab8b8700331cc862873b6f3d953cbf2505749fa78ce88c6994dd71bf900b",
+    "results/v05/dom-check.json": "29f1bd42a0f03d67887ea2d0c09796690a7732eb94318f03a15afc2774d0bb5b",
+    "results/v05/headless-shell.log": "12a52ae537d603edd04d07f7a317f171d4b83f1c5b12cc6e8c04d2593731b4b3",
+    "results/v05/http-tests.log": "9a36cd456828bc68b4707c1ae5434c5031dede3c468a03cf36a8a3149a596175",
+    "results/v05/manifest.json": "434f6cf62205aeec38f03b99ac650e77fd703a71168fecdf823e1d7e515249d7",
+    "results/v05/overview.png": "fe87c3d1f755ce928e97511ee03f84a9e2ee4761657b1db5ecbad9fa2c3f15d8",
+    "scripts/check_dashboard_browser.py": "706f58dbe2dd62f6e9876ddccdffe6920d5325dafb636d1051c2e6cacc140d88",
+    "scripts/check_dashboard_dom.cjs": "a9b49fb4e665d2b4f7eeb78421e3cc984dfc28b941b90d574230ce86d4206692",
+    "src/sentinel_x/dashboard/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "src/sentinel_x/dashboard/__main__.py": "2fdc17a13172b95b188bf4174f235c6726ee0957f381fe45550bb04dd076e70c",
+    "src/sentinel_x/dashboard/static/app.css": "4e515e4d67f38d0225cc72d58ab674773551da10f2dabb7564bcd45a0ae206c3",
+    "src/sentinel_x/dashboard/static/app.js": "d88a7520a80b3acf7c6b4529a3c046e5a74cb7c09fe2193e601d7942db8f3349",
+    "src/sentinel_x/dashboard/static/index.html": "3e427b4f7333840a229d37297ae8d0aa1a02a97f5c5a83dca82c3f2f0fe2ccef",
+    "tests/integration/test_dashboard.py": "3049c040c409c97f8969284a024be006798656a8ff6523e5f61c142bf9086534"
+  },
+  "integrated_source_sha256": "c54dc9778a68c0f701f02f7b1ae561fde206a3c908fd937c6792e222af3215cd",
+  "stage": "v05"
+}

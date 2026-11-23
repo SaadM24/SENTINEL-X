@@ -1,0 +1,435 @@
+{
+  "experiments": [
+    {
+      "code_version": {
+        "__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "__main__.py": "9710f29ddde49284f0250a4464b3560bea27bd50cd65bb7101cd7ff3b7a1cebe",
+        "accelerated.py": "400f0ad7a9edda48dd8a6985d76a2b794a4001f1351794d61317290bac899d69",
+        "metrics.py": "9aad9c47dc54d1534034c8be2b738c61fe6ccb19802aef1f63b12d1ed76ccc3e",
+        "models.py": "682c7be138ebfe6c2604b4879d5fa0ac3c8215567765cc0b2747ce17874a4c93"
+      },
+      "dataset": "synthetic smoke fixture",
+      "dataset_sha256": "29c3229adf1f476ace4c4e148d5ea5a6c41f2b5d940b2be44e61c085be1e9648",
+      "dependencies": {
+        "joblib": "1.5.3",
+        "numpy": "2.3.5",
+        "pandas": "2.2.3",
+        "scikit-learn": "1.8.0",
+        "scipy": "1.17.0",
+        "threadpoolctl": "3.6.0"
+      },
+      "environment": "Linux-6.18.57-x86_64-with-glibc2.41",
+      "id": "flow-local-work-qa",
+      "model_configuration": {
+        "epochs": 18,
+        "iterations": 18,
+        "rbf_centres": 12,
+        "trees": 20
+      },
+      "registry": "results/v02/local-work-qa/registry.json",
+      "results": "results/v02/local-work-qa/comparison.csv",
+      "seconds_by_model": {
+        "autoencoder": 0.05019740900024772,
+        "boost": 0.04699405199971807,
+        "forest": 0.062140990999978385,
+        "isolation": 0.050090622000425356,
+        "logistic": 0.06383536200064555,
+        "mlp": 0.042145391999838466,
+        "rbf": 0.03632300800018129
+      },
+      "seed": 42,
+      "splits": {
+        "cal": 100,
+        "test": 140,
+        "train": 320
+      },
+      "status": "executed",
+      "warnings": {
+        "autoencoder": [
+          "Stochastic Optimizer: Maximum iterations (18) reached and the optimization hasn't converged yet."
+        ],
+        "mlp": [
+          "Stochastic Optimizer: Maximum iterations (18) reached and the optimization hasn't converged yet."
+        ]
+      }
+    },
+    {
+      "code_version": {
+        "__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "__main__.py": "9710f29ddde49284f0250a4464b3560bea27bd50cd65bb7101cd7ff3b7a1cebe",
+        "accelerated.py": "400f0ad7a9edda48dd8a6985d76a2b794a4001f1351794d61317290bac899d69",
+        "metrics.py": "9aad9c47dc54d1534034c8be2b738c61fe6ccb19802aef1f63b12d1ed76ccc3e",
+        "models.py": "682c7be138ebfe6c2604b4879d5fa0ac3c8215567765cc0b2747ce17874a4c93"
+      },
+      "dataset": "UNSW-NB15",
+      "dataset_sha256": "cb8471593b74b70f5acc9e894d0a2cef436426f9de83155311900ea97a385ed2",
+      "dependencies": {
+        "joblib": "1.5.3",
+        "numpy": "2.3.5",
+        "pandas": "2.2.3",
+        "scikit-learn": "1.8.0",
+        "scipy": "1.17.0",
+        "threadpoolctl": "3.6.0"
+      },
+      "environment": "Linux-6.18.57-x86_64-with-glibc2.41",
+      "id": "flow-research",
+      "model_configuration": {
+        "epochs": 80,
+        "iterations": 100,
+        "rbf_centres": 48,
+        "trees": 100
+      },
+      "registry": "results/v02/research/registry.json",
+      "results": "results/v02/research/comparison.csv",
+      "seconds_by_model": {
+        "autoencoder": 0.5536812390000705,
+        "boost": 0.22661989700009144,
+        "forest": 1.4206238970000413,
+        "isolation": 0.2140669259997594,
+        "logistic": 0.15888729299967963,
+        "mlp": 0.9934762429993498,
+        "rbf": 0.07708304599964322
+      },
+      "seed": 42,
+      "splits": {
+        "cal": 1500,
+        "test": 3000,
+        "train": 6000
+      },
+      "status": "executed",
+      "warnings": {
+        "autoencoder": [
+          "Stochastic Optimizer: Maximum iterations (80) reached and the optimization hasn't converged yet."
+        ],
+        "mlp": [
+          "Stochastic Optimizer: Maximum iterations (80) reached and the optimization hasn't converged yet."
+        ]
+      }
+    },
+    {
+      "code_version": {
+        "__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "__main__.py": "9710f29ddde49284f0250a4464b3560bea27bd50cd65bb7101cd7ff3b7a1cebe",
+        "accelerated.py": "400f0ad7a9edda48dd8a6985d76a2b794a4001f1351794d61317290bac899d69",
+        "metrics.py": "9aad9c47dc54d1534034c8be2b738c61fe6ccb19802aef1f63b12d1ed76ccc3e",
+        "models.py": "682c7be138ebfe6c2604b4879d5fa0ac3c8215567765cc0b2747ce17874a4c93"
+      },
+      "dataset": "UNSW-NB15",
+      "dataset_sha256": "acff70a4767c397d7d75f2d4771c8df72bf7f1a5b1d9d90a1eea2ed78f4357b3",
+      "dependencies": {
+        "joblib": "1.5.3",
+        "numpy": "2.3.5",
+        "pandas": "2.2.3",
+        "scikit-learn": "1.8.0",
+        "scipy": "1.17.0",
+        "threadpoolctl": "3.6.0"
+      },
+      "environment": "Linux-6.18.57-x86_64-with-glibc2.41",
+      "id": "flow-research-full",
+      "model_configuration": {
+        "epochs": 80,
+        "iterations": 100,
+        "rbf_centres": 48,
+        "trees": 100
+      },
+      "registry": "results/v02/research-full/registry.json",
+      "results": "results/v02/research-full/comparison.csv",
+      "seconds_by_model": {
+        "autoencoder": 6.237166801000058,
+        "boost": 1.205482538999604,
+        "forest": 20.89941258500039,
+        "isolation": 0.6183006869996461,
+        "logistic": 1.0426734889997533,
+        "mlp": 9.62386879800033,
+        "rbf": 1.4092460399997435
+      },
+      "seed": 42,
+      "splits": {
+        "cal": 17395,
+        "test": 44759,
+        "train": 70021
+      },
+      "status": "executed",
+      "warnings": {
+        "autoencoder": [
+          "Stochastic Optimizer: Maximum iterations (80) reached and the optimization hasn't converged yet."
+        ],
+        "mlp": [
+          "Stochastic Optimizer: Maximum iterations (80) reached and the optimization hasn't converged yet."
+        ]
+      }
+    },
+    {
+      "code_version": {
+        "__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "__main__.py": "9710f29ddde49284f0250a4464b3560bea27bd50cd65bb7101cd7ff3b7a1cebe",
+        "accelerated.py": "400f0ad7a9edda48dd8a6985d76a2b794a4001f1351794d61317290bac899d69",
+        "metrics.py": "9aad9c47dc54d1534034c8be2b738c61fe6ccb19802aef1f63b12d1ed76ccc3e",
+        "models.py": "682c7be138ebfe6c2604b4879d5fa0ac3c8215567765cc0b2747ce17874a4c93"
+      },
+      "dataset": "UNSW-NB15",
+      "dataset_sha256": "cb8471593b74b70f5acc9e894d0a2cef436426f9de83155311900ea97a385ed2",
+      "dependencies": {
+        "joblib": "1.5.3",
+        "numpy": "2.3.5",
+        "pandas": "2.2.3",
+        "scikit-learn": "1.8.0",
+        "scipy": "1.17.0",
+        "threadpoolctl": "3.6.0"
+      },
+      "environment": "Linux-6.18.57-x86_64-with-glibc2.41",
+      "id": "flow-research-seed17",
+      "model_configuration": {
+        "epochs": 80,
+        "iterations": 100,
+        "rbf_centres": 48,
+        "trees": 100
+      },
+      "registry": "results/v02/research-seed17/registry.json",
+      "results": "results/v02/research-seed17/comparison.csv",
+      "seconds_by_model": {
+        "autoencoder": 0.5322121490007703,
+        "boost": 0.2312145440000677,
+        "forest": 1.2998621149999963,
+        "isolation": 0.18420256700028403,
+        "logistic": 0.14335095699971134,
+        "mlp": 0.8446812880001744,
+        "rbf": 0.06112983200000599
+      },
+      "seed": 17,
+      "splits": {
+        "cal": 1500,
+        "test": 3000,
+        "train": 6000
+      },
+      "status": "executed",
+      "warnings": {
+        "autoencoder": [
+          "Stochastic Optimizer: Maximum iterations (80) reached and the optimization hasn't converged yet."
+        ],
+        "mlp": [
+          "Stochastic Optimizer: Maximum iterations (80) reached and the optimization hasn't converged yet."
+        ]
+      }
+    },
+    {
+      "code_version": {
+        "__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "__main__.py": "9710f29ddde49284f0250a4464b3560bea27bd50cd65bb7101cd7ff3b7a1cebe",
+        "accelerated.py": "400f0ad7a9edda48dd8a6985d76a2b794a4001f1351794d61317290bac899d69",
+        "metrics.py": "9aad9c47dc54d1534034c8be2b738c61fe6ccb19802aef1f63b12d1ed76ccc3e",
+        "models.py": "682c7be138ebfe6c2604b4879d5fa0ac3c8215567765cc0b2747ce17874a4c93"
+      },
+      "dataset": "UNSW-NB15",
+      "dataset_sha256": "cb8471593b74b70f5acc9e894d0a2cef436426f9de83155311900ea97a385ed2",
+      "dependencies": {
+        "joblib": "1.5.3",
+        "numpy": "2.3.5",
+        "pandas": "2.2.3",
+        "scikit-learn": "1.8.0",
+        "scipy": "1.17.0",
+        "threadpoolctl": "3.6.0"
+      },
+      "environment": "Linux-6.18.57-x86_64-with-glibc2.41",
+      "id": "flow-research-seed71",
+      "model_configuration": {
+        "epochs": 80,
+        "iterations": 100,
+        "rbf_centres": 48,
+        "trees": 100
+      },
+      "registry": "results/v02/research-seed71/registry.json",
+      "results": "results/v02/research-seed71/comparison.csv",
+      "seconds_by_model": {
+        "autoencoder": 0.5798006319992055,
+        "boost": 0.272108663999461,
+        "forest": 1.4137730410002405,
+        "isolation": 0.21668951300034678,
+        "logistic": 0.13491511500069464,
+        "mlp": 0.9660053409998,
+        "rbf": 0.07102439799928106
+      },
+      "seed": 71,
+      "splits": {
+        "cal": 1500,
+        "test": 3000,
+        "train": 6000
+      },
+      "status": "executed",
+      "warnings": {
+        "autoencoder": [
+          "Stochastic Optimizer: Maximum iterations (80) reached and the optimization hasn't converged yet."
+        ],
+        "mlp": [
+          "Stochastic Optimizer: Maximum iterations (80) reached and the optimization hasn't converged yet."
+        ]
+      }
+    },
+    {
+      "code_version": {
+        "__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "__main__.py": "9710f29ddde49284f0250a4464b3560bea27bd50cd65bb7101cd7ff3b7a1cebe",
+        "accelerated.py": "400f0ad7a9edda48dd8a6985d76a2b794a4001f1351794d61317290bac899d69",
+        "metrics.py": "9aad9c47dc54d1534034c8be2b738c61fe6ccb19802aef1f63b12d1ed76ccc3e",
+        "models.py": "682c7be138ebfe6c2604b4879d5fa0ac3c8215567765cc0b2747ce17874a4c93"
+      },
+      "dataset": "synthetic smoke fixture",
+      "dataset_sha256": "29c3229adf1f476ace4c4e148d5ea5a6c41f2b5d940b2be44e61c085be1e9648",
+      "dependencies": {
+        "joblib": "1.5.3",
+        "numpy": "2.3.5",
+        "pandas": "2.2.3",
+        "scikit-learn": "1.8.0",
+        "scipy": "1.17.0",
+        "threadpoolctl": "3.6.0"
+      },
+      "environment": "Linux-6.18.57-x86_64-with-glibc2.41",
+      "id": "flow-smoke",
+      "model_configuration": {
+        "epochs": 18,
+        "iterations": 18,
+        "rbf_centres": 12,
+        "trees": 20
+      },
+      "registry": "results/v02/smoke/registry.json",
+      "results": "results/v02/smoke/comparison.csv",
+      "seconds_by_model": {
+        "autoencoder": 0.043438368999886734,
+        "boost": 0.06615023299946188,
+        "forest": 0.09717857299983734,
+        "isolation": 0.05853899799967621,
+        "logistic": 0.08181924900054582,
+        "mlp": 0.059495137999874714,
+        "rbf": 0.03222548600024311
+      },
+      "seed": 42,
+      "splits": {
+        "cal": 100,
+        "test": 140,
+        "train": 320
+      },
+      "status": "executed",
+      "warnings": {
+        "autoencoder": [
+          "Stochastic Optimizer: Maximum iterations (18) reached and the optimization hasn't converged yet."
+        ],
+        "boost": [
+          "Could not find the number of physical cores for the following reason:\nfound 0 physical cores < 1\nReturning the number of logical cores instead. You can silence this warning by setting LOKY_MAX_CPU_COUNT to the number of cores you want to use."
+        ],
+        "mlp": [
+          "Stochastic Optimizer: Maximum iterations (18) reached and the optimization hasn't converged yet."
+        ]
+      }
+    },
+    {
+      "code_version": "c54dc9778a68c0f701f02f7b1ae561fde206a3c908fd937c6792e222af3215cd",
+      "dataset": "ADFA-LD",
+      "id": "sequence",
+      "producer_metadata": "results/v03/manifest.json",
+      "protocol": "docs/protocols/SEQUENCE_PROTOCOL.md",
+      "results": "results/v03/summary.json",
+      "status": "executed"
+    },
+    {
+      "code_version": "c54dc9778a68c0f701f02f7b1ae561fde206a3c908fd937c6792e222af3215cd",
+      "dataset": "synthetic-order",
+      "id": "sequence-fixture",
+      "producer_metadata": "results/v03_fixture/manifest.json",
+      "protocol": "docs/protocols/SEQUENCE_PROTOCOL.md",
+      "results": "results/v03_fixture/summary.json",
+      "status": "executed"
+    },
+    {
+      "code_version": "c54dc9778a68c0f701f02f7b1ae561fde206a3c908fd937c6792e222af3215cd",
+      "dataset": "ADFA-LD",
+      "id": "fusion",
+      "producer_metadata": "results/v03_fusion/manifest.json",
+      "protocol": "docs/protocols/FUSION_PROTOCOL.md",
+      "results": "results/v03_fusion/summary.json",
+      "status": "executed"
+    },
+    {
+      "code_version": "c54dc9778a68c0f701f02f7b1ae561fde206a3c908fd937c6792e222af3215cd",
+      "dataset": "synthetic-evidence-v1",
+      "id": "retrieval",
+      "producer_metadata": "results/v04/evidence/registry.json",
+      "protocol": "docs/protocols/EVIDENCE_AND_TRIAGE.md",
+      "results": "results/v04/evidence/summary.json",
+      "status": "executed"
+    },
+    {
+      "code_version": "c54dc9778a68c0f701f02f7b1ae561fde206a3c908fd937c6792e222af3215cd",
+      "dataset": "stored benchmark and fixtures",
+      "id": "dashboard",
+      "producer_metadata": "results/v05/manifest.json",
+      "protocol": "docs/architecture/DASHBOARD.md",
+      "results": "results/v05/browser-check.json",
+      "status": "executed"
+    },
+    {
+      "code_version": "c54dc9778a68c0f701f02f7b1ae561fde206a3c908fd937c6792e222af3215cd",
+      "dataset": "research-full",
+      "id": "triage-research-full",
+      "producer_metadata": "results/v10/research-full/triage/registry.json",
+      "protocol": "docs/protocols/EVIDENCE_AND_TRIAGE.md",
+      "results": "results/v10/research-full/triage/summary.json",
+      "status": "executed"
+    },
+    {
+      "code_version": "c54dc9778a68c0f701f02f7b1ae561fde206a3c908fd937c6792e222af3215cd",
+      "dataset": "smoke",
+      "id": "triage-smoke",
+      "producer_metadata": "results/v10/smoke/triage/registry.json",
+      "protocol": "docs/protocols/EVIDENCE_AND_TRIAGE.md",
+      "results": "results/v10/smoke/triage/summary.json",
+      "status": "executed"
+    },
+    {
+      "code_version": "c54dc9778a68c0f701f02f7b1ae561fde206a3c908fd937c6792e222af3215cd",
+      "dataset": "local-work-qa",
+      "id": "triage-local-work-qa",
+      "producer_metadata": "results/v10/local-work-qa/triage/registry.json",
+      "protocol": "docs/protocols/EVIDENCE_AND_TRIAGE.md",
+      "results": "results/v10/local-work-qa/triage/summary.json",
+      "status": "executed"
+    },
+    {
+      "code_version": "c54dc9778a68c0f701f02f7b1ae561fde206a3c908fd937c6792e222af3215cd",
+      "dataset": "research",
+      "id": "triage-research",
+      "producer_metadata": "results/v10/research/triage/registry.json",
+      "protocol": "docs/protocols/EVIDENCE_AND_TRIAGE.md",
+      "results": "results/v10/research/triage/summary.json",
+      "status": "executed"
+    },
+    {
+      "code_version": "c54dc9778a68c0f701f02f7b1ae561fde206a3c908fd937c6792e222af3215cd",
+      "dataset": "nf-v2",
+      "id": "shift-nf-v2",
+      "producer_metadata": "results/external/nf-v2/metrics.json",
+      "protocol": "docs/protocols/EXPERIMENTAL_PROTOCOL.md",
+      "results": "results/external/nf-v2/metrics.json",
+      "status": "executed"
+    },
+    {
+      "code_version": "c54dc9778a68c0f701f02f7b1ae561fde206a3c908fd937c6792e222af3215cd",
+      "dataset": "nf-v3-pilot",
+      "id": "shift-nf-v3-pilot",
+      "producer_metadata": "results/external/nf-v3-pilot/metrics.json",
+      "protocol": "docs/protocols/EXPERIMENTAL_PROTOCOL.md",
+      "results": "results/external/nf-v3-pilot/metrics.json",
+      "status": "executed"
+    }
+  ],
+  "limitations": "reports/SCIENTIFIC_LIMITATIONS.md",
+  "release": "1.0",
+  "runtime_python": "3.12.14",
+  "source_sha256": "c54dc9778a68c0f701f02f7b1ae561fde206a3c908fd937c6792e222af3215cd",
+  "system_environment": "results/v10/workflow_qa/environment.json",
+  "unexecuted": [
+    "native Windows execution",
+    "CUDA training",
+    "live local LLM",
+    "independent analyst review"
+  ]
+}

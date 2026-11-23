@@ -1,0 +1,1 @@
+{"seed": 42, "smoke": {"trees": 20, "iterations": 18, "epochs": 18, "rbf_centres": 12}, "research": {"trees": 100, "iterations": 100, "epochs": 80, "rbf_centres": 48}, "batch": 128}

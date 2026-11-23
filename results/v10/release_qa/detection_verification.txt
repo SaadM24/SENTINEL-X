@@ -1,0 +1,6 @@
+local-work-qa: verified 140 predictions, 28 comparison rows, seven checkpoint hashes
+research: verified 3000 predictions, 28 comparison rows, seven checkpoint hashes
+research-full: verified 44759 predictions, 28 comparison rows, seven checkpoint hashes
+research-seed17: verified 3000 predictions, 28 comparison rows, seven checkpoint hashes
+research-seed71: verified 3000 predictions, 28 comparison rows, seven checkpoint hashes
+smoke: verified 140 predictions, 28 comparison rows, seven checkpoint hashes

@@ -1,0 +1,37 @@
+{
+  "configuration": {
+    "alpha": 0.5,
+    "archive_sha256": null,
+    "calibration_quantile": 0.95,
+    "dataset": "fixture",
+    "fixture_seed": 216,
+    "module_sha256": {
+      "__init__.py": "b77d60b615bc367843cab80bbffb3465298cf2dfb59405593f14f3c80b9c7917",
+      "__main__.py": "2c0813524e6bea9a2b66a2f7660c2b2ab8665c930ceecf6dd530489855907335",
+      "dataset.py": "0f19f26d274f40fd7a90db659ad36accfefdc9ee29349040ead5cf4265a4a349",
+      "model.py": "88fb691091463d7dde2750344ca5519bcadca7a20f5fc51d4a0a2a9b913eb359"
+    }
+  },
+  "duration_s": 0.07287805899977684,
+  "environment": {
+    "numpy": "2.3.5",
+    "platform": "Linux-6.18.57-x86_64-with-glibc2.41",
+    "python": "3.12.14",
+    "sklearn": "1.8.0"
+  },
+  "experiment_id": "E4-fixture",
+  "files": {
+    "model.json": "357e175f38f669e392025b8da2c31054d91bee9bbfada7e33d64a275bd9d9db9",
+    "partitions.csv": "f4d5751dc9b573ef1b4a7d124bd779e89b2003e0d1cd9731e1aec8911d88e3f1",
+    "scores.csv": "463bebe9ea75e11485681d87eed600183f16c315624dd5e7d17ecf10b6f56a00",
+    "summary.json": "8d99c26279511ece465013ed6fdccced0f81dc2d513464c99f33989ee55e445b",
+    "transitions.csv": "5d5adf770db708c352c56d9b0c92defd7844f459ad731c6075792a7fdaddea46"
+  },
+  "limitations": [
+    "order anomaly encoded by generator"
+  ],
+  "metrics": "summary.json",
+  "split_protocol": "docs/protocols/SEQUENCE_PROTOCOL.md",
+  "status": "executed",
+  "url": null
+}

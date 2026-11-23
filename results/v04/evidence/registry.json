@@ -1,0 +1,24 @@
+{
+  "experiment_id": "E7-investigation",
+  "code_version": "e4a3c0ff88bc1c7d9019e16a551ee0c559d9b9cccc35c96c40e27d58d67ca287",
+  "inputs": {
+    "data/fixtures/evidence_records.json": "47c2884ac2f5a5763061edc1630dc1ef0aefb05659ad8cd9bec346955d142c2a",
+    "data/fixtures/evidence_key.json": "6f840e85c4670a795ef2e6235a61a2a1a4c475220eff4f5e2cd96d48b9f4ec55"
+  },
+  "configuration": {
+    "split": "all fixed challenge cases"
+  },
+  "environment": "Linux-6.18.57-x86_64-with-glibc2.41",
+  "python": "3.12.14",
+  "dependencies": "Python standard library",
+  "seed": null,
+  "status": "executed",
+  "results": "summary.json",
+  "runtime_seconds": 0.005076918000668229,
+  "artifacts": {
+    "cases.jsonl": "687625b889f197589b0e195fbfe4a622382222397e2f77c1fc1e7162e8a33758",
+    "review.csv": "cbecc136a35aa31208efb811b4e582a93da419c1d23bbb349e978a5399f8f0b2",
+    "review_key.json": "fb96239b85c6a75f8feb2256125011465123a48e71bf027d5026eb094f667fff",
+    "summary.json": "8a766c76d10621bbc22684d8601853ba8282c5923e3764691828596db148ed12"
+  }
+}

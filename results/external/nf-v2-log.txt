@@ -1,0 +1,67 @@
+{
+  "dataset_version": "v2",
+  "source": "nf-unsw-nb15-v2.zip",
+  "target": "nf-cse-cic-ids2018-v2.zip",
+  "sha256": [
+    "c686c1eb7057e42d3ffff3797277804687b9780b3becb7185cb9c66811cdbf1c",
+    "ac38f3a072882f0d06395ad4ca1a6d84d2844411fdb497cd9ddd2b06ac1b9719"
+  ],
+  "features": [
+    "IN_BYTES",
+    "OUT_BYTES",
+    "IN_PKTS",
+    "OUT_PKTS",
+    "FLOW_DURATION_MILLISECONDS",
+    "LONGEST_FLOW_PKT",
+    "SHORTEST_FLOW_PKT",
+    "RETRANSMITTED_IN_PKTS",
+    "RETRANSMITTED_OUT_PKTS",
+    "TCP_WIN_MAX_IN",
+    "TCP_WIN_MAX_OUT"
+  ],
+  "seed": 23,
+  "cap": 50000,
+  "source_counts": {
+    "raw": 2390275,
+    "sampled": 50000,
+    "distinct_vectors": 5956,
+    "contradictory_vectors": 6,
+    "retained": 5950
+  },
+  "target_counts": {
+    "raw": 18893708,
+    "sampled": 50000,
+    "distinct_vectors": 13039,
+    "contradictory_vectors": 137,
+    "retained": 12902
+  },
+  "target_overlap_removed": 13,
+  "n_fit": 4462,
+  "within_source": {
+    "n": 1488,
+    "prevalence": 0.18413978494623656,
+    "tn": 1157,
+    "fp": 57,
+    "fn": 192,
+    "tp": 82,
+    "average_precision": 0.5669861484060408,
+    "roc_auc": 0.8882953137964621,
+    "brier": 0.10422989195870862,
+    "recall": 0.29927007299270075,
+    "fpr": 0.04695222405271829
+  },
+  "external": {
+    "n": 12889,
+    "prevalence": 0.23989448366824423,
+    "tn": 3341,
+    "fp": 6456,
+    "fn": 1284,
+    "tp": 1808,
+    "average_precision": 0.167454088383094,
+    "roc_auc": 0.2979741666568732,
+    "brier": 0.329958742122753,
+    "recall": 0.5847347994825356,
+    "fpr": 0.6589772379299785
+  },
+  "wall_seconds": 44.02387288299997
+}

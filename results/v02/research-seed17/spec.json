@@ -1,0 +1,50 @@
+{
+  "dataset": "UNSW-NB15",
+  "dataset_sha256": "cb8471593b74b70f5acc9e894d0a2cef436426f9de83155311900ea97a385ed2",
+  "seed": 17,
+  "mode": "research",
+  "config": {
+    "trees": 100,
+    "iterations": 100,
+    "epochs": 80,
+    "rbf_centres": 48
+  },
+  "device": "cpu",
+  "batch": 128,
+  "features": [
+    "f_dur",
+    "f_spkts",
+    "f_dpkts",
+    "f_sbytes",
+    "f_dbytes",
+    "f_rate",
+    "f_sload",
+    "f_dload",
+    "f_sloss",
+    "f_dloss",
+    "f_sinpkt",
+    "f_dinpkt",
+    "f_sjit",
+    "f_djit",
+    "f_tcprtt",
+    "f_synack",
+    "f_ackdat",
+    "f_smean",
+    "f_dmean"
+  ],
+  "dependencies": {
+    "numpy": "2.3.5",
+    "pandas": "2.2.3",
+    "scikit-learn": "1.8.0",
+    "scipy": "1.17.0",
+    "joblib": "1.5.3",
+    "threadpoolctl": "3.6.0"
+  },
+  "source_sha256": {
+    "__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "__main__.py": "9710f29ddde49284f0250a4464b3560bea27bd50cd65bb7101cd7ff3b7a1cebe",
+    "accelerated.py": "400f0ad7a9edda48dd8a6985d76a2b794a4001f1351794d61317290bac899d69",
+    "metrics.py": "9aad9c47dc54d1534034c8be2b738c61fe6ccb19802aef1f63b12d1ed76ccc3e",
+    "models.py": "682c7be138ebfe6c2604b4879d5fa0ac3c8215567765cc0b2747ce17874a4c93"
+  }
+}

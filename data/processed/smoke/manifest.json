@@ -1,0 +1,55 @@
+{
+  "dataset": "synthetic smoke fixture",
+  "version": "fixture-1",
+  "synthetic_fixture": true,
+  "provenance": "Seed 119 independent lognormal columns, artificial binary labels; no security inference.",
+  "partitions": {
+    "train": {
+      "eligible": 320,
+      "selected": 320,
+      "categories": {
+        "Normal": 203,
+        "fixture-anomaly": 117
+      }
+    },
+    "cal": {
+      "eligible": 100,
+      "selected": 100,
+      "categories": {
+        "fixture-anomaly": 43,
+        "Normal": 57
+      }
+    },
+    "test": {
+      "eligible": 140,
+      "selected": 140,
+      "categories": {
+        "fixture-anomaly": 53,
+        "Normal": 87
+      }
+    }
+  },
+  "mode": "smoke",
+  "features": [
+    "f_dur",
+    "f_spkts",
+    "f_dpkts",
+    "f_sbytes",
+    "f_dbytes",
+    "f_rate",
+    "f_sload",
+    "f_dload",
+    "f_sloss",
+    "f_dloss",
+    "f_sinpkt",
+    "f_dinpkt",
+    "f_sjit",
+    "f_djit",
+    "f_tcprtt",
+    "f_synack",
+    "f_ackdat",
+    "f_smean",
+    "f_dmean"
+  ],
+  "sha256": "29c3229adf1f476ace4c4e148d5ea5a6c41f2b5d940b2be44e61c085be1e9648"
+}

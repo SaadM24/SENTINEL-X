@@ -1,0 +1,8 @@
+{
+  "run": "local-clean-linux311",
+  "mode": "smoke",
+  "seed": 42,
+  "full": false,
+  "device": "cpu",
+  "sequence": "fixture"
+}

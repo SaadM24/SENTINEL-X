@@ -1,0 +1,52 @@
+{
+  "event_id": "e2",
+  "status": "reported",
+  "observations": [
+    {
+      "field": "signal",
+      "value": "threshold crossed",
+      "citations": [
+        "e2"
+      ]
+    },
+    {
+      "field": "model",
+      "value": "fixture-logit",
+      "citations": [
+        "e2"
+      ]
+    },
+    {
+      "field": "probability",
+      "value": 0.91,
+      "citations": [
+        "e2"
+      ]
+    }
+  ],
+  "hypotheses": [],
+  "timeline": [
+    {
+      "event_id": "e1",
+      "timestamp": "2026-01-02T11:00:00+01:00"
+    },
+    {
+      "event_id": "e2",
+      "timestamp": "2026-01-02T10:00:01Z"
+    },
+    {
+      "event_id": "e3",
+      "timestamp": "2026-01-02T10:00:01+00:00"
+    }
+  ],
+  "reasons": [],
+  "related_event_ids": [
+    "e1",
+    "e2",
+    "e3"
+  ],
+  "uncertainty": [
+    "A recorded alert alone cannot establish intent, attack outcome or root cause."
+  ],
+  "provider_status": "offline_fallback"
+}

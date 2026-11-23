@@ -1,0 +1,17 @@
+{
+  "launch_dashboard.ps1": {
+    "syntax_errors": false
+  },
+  "resume_research_pipeline.ps1": {
+    "syntax_errors": false
+  },
+  "run_research_pipeline.ps1": {
+    "syntax_errors": false
+  },
+  "run_smoke_tests.ps1": {
+    "syntax_errors": false
+  },
+  "setup_windows.ps1": {
+    "syntax_errors": false
+  }
+}

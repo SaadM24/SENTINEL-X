@@ -1,0 +1,27 @@
+{
+  "experiment_id": "E8-exploratory-reviewed-flow-packet",
+  "code_version": "e4a3c0ff88bc1c7d9019e16a551ee0c559d9b9cccc35c96c40e27d58d67ca287",
+  "inputs": {
+    "results/v02/research-full/predictions.csv": "91f826eceb0231180f5bffac2512d9b456573860d010b40f8e8efb7ca73628d7",
+    "data/processed/research-full/events.csv": "acff70a4767c397d7d75f2d4771c8df72bf7f1a5b1d9d90a1eea2ed78f4357b3",
+    "scripts/build_evidence_packet.py": "b9b893d34a6a4d81951b32e8c3f4fea5e87879ffe17e52f7f81ff996352263fd"
+  },
+  "configuration": {
+    "split": "held-out test",
+    "per_stratum": 5,
+    "human_reviews": 0
+  },
+  "environment": "Linux-6.18.57-x86_64-with-glibc2.41",
+  "python": "3.12.14",
+  "dependencies": "Python standard library",
+  "seed": null,
+  "status": "executed",
+  "results": "summary.json",
+  "runtime_seconds": 1.3331823250000525,
+  "artifacts": {
+    "blinded_cases.jsonl": "2b991fc9b3c561985c428dda44f0090be59598afff3f8586f897b87b111b6243",
+    "coordinator_key.json": "9b62226a1fa6471df470e27c331f5d625c563ad680ae65ff36a7e333facd1439",
+    "review.csv": "cf3b045aa4e54c945b5ff19babf1722aed992d7bf78f89af08dec846c121c0fa",
+    "summary.json": "0e57bd93f58ecd8cf46880d6fbcb3e19b449950fc90dbc0cc727ff4b9dcd4a1a"
+  }
+}

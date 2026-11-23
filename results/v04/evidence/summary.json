@@ -1,0 +1,76 @@
+{
+  "dataset": "synthetic controlled records v1",
+  "evidence_level": "author-specified automated key",
+  "human_reviews_completed": 0,
+  "systems": {
+    "session_retrieval": {
+      "counts": {
+        "claims": 9,
+        "true_claims": 9,
+        "citations": 9,
+        "valid_citations": 9,
+        "unsupported": 0,
+        "cases": 8,
+        "correct_status": 8,
+        "timeline_match": 8,
+        "reportable": 6,
+        "expected_ids": 12,
+        "recovered_ids": 12,
+        "sufficient": 6
+      },
+      "citation_precision": 1.0,
+      "evidence_sufficiency": 1.0,
+      "factual_support": 1.0,
+      "unsupported_claim_frequency": 0.0,
+      "abstention_correctness": 1.0,
+      "timeline_exact_match": 1.0,
+      "related_id_recall": 1.0
+    },
+    "anchor_only": {
+      "counts": {
+        "claims": 9,
+        "true_claims": 9,
+        "citations": 9,
+        "valid_citations": 9,
+        "unsupported": 0,
+        "cases": 8,
+        "correct_status": 8,
+        "timeline_match": 5,
+        "reportable": 6,
+        "expected_ids": 12,
+        "recovered_ids": 6,
+        "sufficient": 2
+      },
+      "citation_precision": 1.0,
+      "evidence_sufficiency": 0.3333333333333333,
+      "factual_support": 1.0,
+      "unsupported_claim_frequency": 0.0,
+      "abstention_correctness": 1.0,
+      "timeline_exact_match": 0.625,
+      "related_id_recall": 0.5
+    },
+    "citation_stripped": {
+      "counts": {
+        "claims": 9,
+        "true_claims": 9,
+        "citations": 0,
+        "valid_citations": 0,
+        "unsupported": 9,
+        "cases": 8,
+        "correct_status": 8,
+        "timeline_match": 8,
+        "reportable": 6,
+        "expected_ids": 12,
+        "recovered_ids": 12,
+        "sufficient": 0
+      },
+      "citation_precision": null,
+      "evidence_sufficiency": 0.0,
+      "factual_support": 1.0,
+      "unsupported_claim_frequency": 1.0,
+      "abstention_correctness": 1.0,
+      "timeline_exact_match": 1.0,
+      "related_id_recall": 1.0
+    }
+  }
+}

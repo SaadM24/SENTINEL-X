@@ -1,0 +1,596 @@
+{
+  "scores": [
+    {
+      "model": "rbf",
+      "calibration": "raw",
+      "precision": 0.517258438938996,
+      "recall": 0.9239972807613868,
+      "f1": 0.6632346841681509,
+      "macro_f1": 0.6894092688937434,
+      "average_precision": 0.5508171924012527,
+      "pr_auc": 0.5507401710870008,
+      "roc_auc": 0.7883789764730297,
+      "tn": 17364,
+      "fp": 12685,
+      "fn": 1118,
+      "tp": 13592,
+      "brier": 0.21135054773737325,
+      "ece": 0.17711814800408862,
+      "fpr": 0.4221438317414889,
+      "false_alarms_per_1000": 422.1438317414889,
+      "microseconds_per_event": 1.6388263142656012
+    },
+    {
+      "model": "rbf",
+      "calibration": "platt",
+      "precision": 0.524269450495253,
+      "recall": 0.8671651937457512,
+      "f1": 0.6534668681642376,
+      "macro_f1": 0.6927219040783548,
+      "average_precision": 0.5508171924012527,
+      "pr_auc": 0.5507401710870008,
+      "roc_auc": 0.7883789764730297,
+      "tn": 18474,
+      "fp": 11575,
+      "fn": 1954,
+      "tp": 12756,
+      "brier": 0.20806346614131427,
+      "ece": 0.15952384725355123,
+      "fpr": 0.38520416652800427,
+      "false_alarms_per_1000": 385.20416652800424,
+      "microseconds_per_event": 1.6388263142656012
+    },
+    {
+      "model": "rbf",
+      "calibration": "temperature",
+      "precision": 0.517258438938996,
+      "recall": 0.9239972807613868,
+      "f1": 0.6632346841681509,
+      "macro_f1": 0.6894092688937434,
+      "average_precision": 0.5508171924012527,
+      "pr_auc": 0.5507401710870008,
+      "roc_auc": 0.7883789764730297,
+      "tn": 17364,
+      "fp": 12685,
+      "fn": 1118,
+      "tp": 13592,
+      "brier": 0.21548690507507606,
+      "ece": 0.1817298086067395,
+      "fpr": 0.4221438317414889,
+      "false_alarms_per_1000": 422.1438317414889,
+      "microseconds_per_event": 1.6388263142656012
+    },
+    {
+      "model": "rbf",
+      "calibration": "isotonic",
+      "precision": 0.5239839319470699,
+      "recall": 0.9044867437117607,
+      "f1": 0.6635579272854222,
+      "macro_f1": 0.695264474408455,
+      "average_precision": 0.5445307858740298,
+      "pr_auc": 0.552347995706164,
+      "roc_auc": 0.7879587926169717,
+      "tn": 17962,
+      "fp": 12087,
+      "fn": 1405,
+      "tp": 13305,
+      "brier": 0.2081023446843739,
+      "ece": 0.166110338937037,
+      "fpr": 0.40224300309494493,
+      "false_alarms_per_1000": 402.2430030949449,
+      "microseconds_per_event": 1.6388263142656012
+    }
+  ],
+  "reliability": [
+    {
+      "model": "rbf",
+      "calibration": "raw",
+      "bin": 0,
+      "count": 13263,
+      "mean_probability": 0.04065889177721885,
+      "observed_rate": 0.00867073814370806
+    },
+    {
+      "model": "rbf",
+      "calibration": "raw",
+      "bin": 1,
+      "count": 2392,
+      "mean_probability": 0.12979873894173244,
+      "observed_rate": 0.044732441471571904
+    },
+    {
+      "model": "rbf",
+      "calibration": "raw",
+      "bin": 2,
+      "count": 575,
+      "mean_probability": 0.2500288808233507,
+      "observed_rate": 0.2382608695652174
+    },
+    {
+      "model": "rbf",
+      "calibration": "raw",
+      "bin": 3,
+      "count": 754,
+      "mean_probability": 0.3538063932498863,
+      "observed_rate": 0.35543766578249336
+    },
+    {
+      "model": "rbf",
+      "calibration": "raw",
+      "bin": 4,
+      "count": 1498,
+      "mean_probability": 0.4535278017493831,
+      "observed_rate": 0.32777036048064084
+    },
+    {
+      "model": "rbf",
+      "calibration": "raw",
+      "bin": 5,
+      "count": 2922,
+      "mean_probability": 0.5439736006202719,
+      "observed_rate": 0.43086926762491445
+    },
+    {
+      "model": "rbf",
+      "calibration": "raw",
+      "bin": 6,
+      "count": 3080,
+      "mean_probability": 0.655310402978501,
+      "observed_rate": 0.461038961038961
+    },
+    {
+      "model": "rbf",
+      "calibration": "raw",
+      "bin": 7,
+      "count": 5748,
+      "mean_probability": 0.755097278044884,
+      "observed_rate": 0.511134307585247
+    },
+    {
+      "model": "rbf",
+      "calibration": "raw",
+      "bin": 8,
+      "count": 9795,
+      "mean_probability": 0.8521119309249828,
+      "observed_rate": 0.5366003062787136
+    },
+    {
+      "model": "rbf",
+      "calibration": "raw",
+      "bin": 9,
+      "count": 4732,
+      "mean_probability": 0.9300359400978696,
+      "observed_rate": 0.5745984784446323
+    },
+    {
+      "model": "rbf",
+      "calibration": "platt",
+      "bin": 0,
+      "count": 15261,
+      "mean_probability": 0.029887694290131463,
+      "observed_rate": 0.012122403512220693
+    },
+    {
+      "model": "rbf",
+      "calibration": "platt",
+      "bin": 1,
+      "count": 762,
+      "mean_probability": 0.1452328610288933,
+      "observed_rate": 0.14041994750656167
+    },
+    {
+      "model": "rbf",
+      "calibration": "platt",
+      "bin": 2,
+      "count": 676,
+      "mean_probability": 0.251802092037562,
+      "observed_rate": 0.33579881656804733
+    },
+    {
+      "model": "rbf",
+      "calibration": "platt",
+      "bin": 3,
+      "count": 1146,
+      "mean_probability": 0.35557925351989766,
+      "observed_rate": 0.3333333333333333
+    },
+    {
+      "model": "rbf",
+      "calibration": "platt",
+      "bin": 4,
+      "count": 2583,
+      "mean_probability": 0.458607212582164,
+      "observed_rate": 0.4076655052264808
+    },
+    {
+      "model": "rbf",
+      "calibration": "platt",
+      "bin": 5,
+      "count": 1952,
+      "mean_probability": 0.5535064056649626,
+      "observed_rate": 0.4323770491803279
+    },
+    {
+      "model": "rbf",
+      "calibration": "platt",
+      "bin": 6,
+      "count": 3132,
+      "mean_probability": 0.6537852442017102,
+      "observed_rate": 0.4786079182630907
+    },
+    {
+      "model": "rbf",
+      "calibration": "platt",
+      "bin": 7,
+      "count": 5406,
+      "mean_probability": 0.754003618131049,
+      "observed_rate": 0.5173880873103959
+    },
+    {
+      "model": "rbf",
+      "calibration": "platt",
+      "bin": 8,
+      "count": 8789,
+      "mean_probability": 0.8521380326959932,
+      "observed_rate": 0.5390829445898282
+    },
+    {
+      "model": "rbf",
+      "calibration": "platt",
+      "bin": 9,
+      "count": 5052,
+      "mean_probability": 0.9330565475970999,
+      "observed_rate": 0.5696753760886778
+    },
+    {
+      "model": "rbf",
+      "calibration": "temperature",
+      "bin": 0,
+      "count": 13612,
+      "mean_probability": 0.03436255332850858,
+      "observed_rate": 0.010578900969732588
+    },
+    {
+      "model": "rbf",
+      "calibration": "temperature",
+      "bin": 1,
+      "count": 2133,
+      "mean_probability": 0.12150890538901744,
+      "observed_rate": 0.040787623066104076
+    },
+    {
+      "model": "rbf",
+      "calibration": "temperature",
+      "bin": 2,
+      "count": 557,
+      "mean_probability": 0.24939188751176258,
+      "observed_rate": 0.27289048473967686
+    },
+    {
+      "model": "rbf",
+      "calibration": "temperature",
+      "bin": 3,
+      "count": 752,
+      "mean_probability": 0.35329823861352977,
+      "observed_rate": 0.35638297872340424
+    },
+    {
+      "model": "rbf",
+      "calibration": "temperature",
+      "bin": 4,
+      "count": 1428,
+      "mean_probability": 0.45265443017666995,
+      "observed_rate": 0.32703081232493
+    },
+    {
+      "model": "rbf",
+      "calibration": "temperature",
+      "bin": 5,
+      "count": 2762,
+      "mean_probability": 0.5440110680584491,
+      "observed_rate": 0.43157132512671975
+    },
+    {
+      "model": "rbf",
+      "calibration": "temperature",
+      "bin": 6,
+      "count": 2728,
+      "mean_probability": 0.6548852766264732,
+      "observed_rate": 0.4596774193548387
+    },
+    {
+      "model": "rbf",
+      "calibration": "temperature",
+      "bin": 7,
+      "count": 5138,
+      "mean_probability": 0.7558326085914885,
+      "observed_rate": 0.4992214869599066
+    },
+    {
+      "model": "rbf",
+      "calibration": "temperature",
+      "bin": 8,
+      "count": 9396,
+      "mean_probability": 0.8543776858082344,
+      "observed_rate": 0.5388463175819498
+    },
+    {
+      "model": "rbf",
+      "calibration": "temperature",
+      "bin": 9,
+      "count": 6253,
+      "mean_probability": 0.9331581128105021,
+      "observed_rate": 0.5626099472253319
+    },
+    {
+      "model": "rbf",
+      "calibration": "isotonic",
+      "bin": 0,
+      "count": 15602,
+      "mean_probability": 0.009183299200192443,
+      "observed_rate": 0.01365209588514293
+    },
+    {
+      "model": "rbf",
+      "calibration": "isotonic",
+      "bin": 1,
+      "count": 30,
+      "mean_probability": 0.1056700852154387,
+      "observed_rate": 0.23333333333333334
+    },
+    {
+      "model": "rbf",
+      "calibration": "isotonic",
+      "bin": 2,
+      "count": 259,
+      "mean_probability": 0.23916713708670853,
+      "observed_rate": 0.12355212355212356
+    },
+    {
+      "model": "rbf",
+      "calibration": "isotonic",
+      "bin": 3,
+      "count": 163,
+      "mean_probability": 0.39058846180599033,
+      "observed_rate": 0.2883435582822086
+    },
+    {
+      "model": "rbf",
+      "calibration": "isotonic",
+      "bin": 4,
+      "count": 3313,
+      "mean_probability": 0.41584158415841593,
+      "observed_rate": 0.33383640205252035
+    },
+    {
+      "model": "rbf",
+      "calibration": "isotonic",
+      "bin": 5,
+      "count": 316,
+      "mean_probability": 0.5460759493670886,
+      "observed_rate": 0.43354430379746833
+    },
+    {
+      "model": "rbf",
+      "calibration": "isotonic",
+      "bin": 6,
+      "count": 14,
+      "mean_probability": 0.6555148436245013,
+      "observed_rate": 0.8571428571428571
+    },
+    {
+      "model": "rbf",
+      "calibration": "isotonic",
+      "bin": 7,
+      "count": 11986,
+      "mean_probability": 0.7551107103302818,
+      "observed_rate": 0.4943267145002503
+    },
+    {
+      "model": "rbf",
+      "calibration": "isotonic",
+      "bin": 8,
+      "count": 11310,
+      "mean_probability": 0.8399698462572618,
+      "observed_rate": 0.5481874447391689
+    },
+    {
+      "model": "rbf",
+      "calibration": "isotonic",
+      "bin": 9,
+      "count": 1766,
+      "mean_probability": 0.9116016385540169,
+      "observed_rate": 0.5838052095130238
+    }
+  ],
+  "coverage": [
+    {
+      "model": "rbf",
+      "calibration": "raw",
+      "target_review": 0,
+      "threshold": 0.5,
+      "coverage": 1.0,
+      "review_count": 0,
+      "risk": 0.3083849058289953
+    },
+    {
+      "model": "rbf",
+      "calibration": "raw",
+      "target_review": 0.05,
+      "threshold": 0.5279484309813929,
+      "coverage": 0.958041958041958,
+      "review_count": 1878,
+      "risk": 0.2985238217392318
+    },
+    {
+      "model": "rbf",
+      "calibration": "raw",
+      "target_review": 0.1,
+      "threshold": 0.606696579529486,
+      "coverage": 0.8969369288858107,
+      "review_count": 4613,
+      "risk": 0.28755044089074877
+    },
+    {
+      "model": "rbf",
+      "calibration": "raw",
+      "target_review": 0.2,
+      "threshold": 0.7416565569448422,
+      "coverage": 0.7676221542036239,
+      "review_count": 10401,
+      "risk": 0.2520519238605274
+    },
+    {
+      "model": "rbf",
+      "calibration": "raw",
+      "target_review": 0.5,
+      "threshold": 0.8836939804526345,
+      "coverage": 0.4475077638016935,
+      "review_count": 24729,
+      "risk": 0.14667998002995505
+    },
+    {
+      "model": "rbf",
+      "calibration": "platt",
+      "target_review": 0,
+      "threshold": 0.5,
+      "coverage": 1.0,
+      "review_count": 0,
+      "risk": 0.30226323197569205
+    },
+    {
+      "model": "rbf",
+      "calibration": "platt",
+      "target_review": 0.05,
+      "threshold": 0.5286766428407825,
+      "coverage": 0.9575951205344176,
+      "review_count": 1898,
+      "risk": 0.29516343529082384
+    },
+    {
+      "model": "rbf",
+      "calibration": "platt",
+      "target_review": 0.1,
+      "threshold": 0.594683882165054,
+      "coverage": 0.9036618333742934,
+      "review_count": 4312,
+      "risk": 0.2837293247954113
+    },
+    {
+      "model": "rbf",
+      "calibration": "platt",
+      "target_review": 0.2,
+      "threshold": 0.729121022466823,
+      "coverage": 0.7693201367322773,
+      "review_count": 10325,
+      "risk": 0.25013068478829065
+    },
+    {
+      "model": "rbf",
+      "calibration": "platt",
+      "target_review": 0.5,
+      "threshold": 0.906836397922012,
+      "coverage": 0.4388391161554101,
+      "review_count": 25117,
+      "risk": 0.10457183586192852
+    },
+    {
+      "model": "rbf",
+      "calibration": "temperature",
+      "target_review": 0,
+      "threshold": 0.5,
+      "coverage": 1.0,
+      "review_count": 0,
+      "risk": 0.3083849058289953
+    },
+    {
+      "model": "rbf",
+      "calibration": "temperature",
+      "target_review": 0.05,
+      "threshold": 0.5300700704022803,
+      "coverage": 0.958041958041958,
+      "review_count": 1878,
+      "risk": 0.2985238217392318
+    },
+    {
+      "model": "rbf",
+      "calibration": "temperature",
+      "target_review": 0.1,
+      "threshold": 0.6145380432009703,
+      "coverage": 0.8969369288858107,
+      "review_count": 4613,
+      "risk": 0.28755044089074877
+    },
+    {
+      "model": "rbf",
+      "calibration": "temperature",
+      "target_review": 0.2,
+      "threshold": 0.7567310693770726,
+      "coverage": 0.7676221542036239,
+      "review_count": 10401,
+      "risk": 0.2520519238605274
+    },
+    {
+      "model": "rbf",
+      "calibration": "temperature",
+      "target_review": 0.5,
+      "threshold": 0.8986384886667735,
+      "coverage": 0.4475077638016935,
+      "review_count": 24729,
+      "risk": 0.14667998002995505
+    },
+    {
+      "model": "rbf",
+      "calibration": "isotonic",
+      "target_review": 0,
+      "threshold": 0.5,
+      "coverage": 1.0,
+      "review_count": 0,
+      "risk": 0.30143658258674233
+    },
+    {
+      "model": "rbf",
+      "calibration": "isotonic",
+      "target_review": 0.05,
+      "threshold": 0.5841584158415842,
+      "coverage": 0.992939967380862,
+      "review_count": 316,
+      "risk": 0.299552235447652
+    },
+    {
+      "model": "rbf",
+      "calibration": "isotonic",
+      "target_review": 0.1,
+      "threshold": 0.7450731087094723,
+      "coverage": 0.9092026184677942,
+      "review_count": 4064,
+      "risk": 0.2970389482737437
+    },
+    {
+      "model": "rbf",
+      "calibration": "isotonic",
+      "target_review": 0.2,
+      "threshold": 0.7628732150584163,
+      "coverage": 0.8007104716369892,
+      "review_count": 8920,
+      "risk": 0.2641814782778537
+    },
+    {
+      "model": "rbf",
+      "calibration": "isotonic",
+      "target_review": 0.5,
+      "threshold": 0.8725868725868726,
+      "coverage": 0.44391072186599345,
+      "review_count": 24890,
+      "risk": 0.10141426342543661
+    }
+  ],
+  "run": {
+    "model": "rbf",
+    "status": "executed",
+    "seconds": 1.4092460399997435,
+    "checkpoint": "results/v02/research-full/rbf.joblib",
+    "checkpoint_sha256": "92912bd8bae795b594908d5ad06ad80bb80cc02a7b0c436d3f9fb5a596912914",
+    "warnings": []
+  }
+}

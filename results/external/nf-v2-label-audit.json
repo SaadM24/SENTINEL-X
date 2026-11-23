@@ -1,0 +1,43 @@
+{
+  "nf-cse-cic-ids2018-v2.zip": {
+    "bytes": 672361898,
+    "categories": {
+      "Benign": 16635567,
+      "DDOS attack-HOIC": 1080858,
+      "DoS attacks-Hulk": 432648,
+      "DDoS attacks-LOIC-HTTP": 307300,
+      "Bot": 143097,
+      "Infilteration": 116361,
+      "SSH-Bruteforce": 94979,
+      "DoS attacks-GoldenEye": 27723,
+      "FTP-BruteForce": 25933,
+      "DoS attacks-SlowHTTPTest": 14116,
+      "DoS attacks-Slowloris": 9512,
+      "Brute Force -Web": 2143,
+      "DDOS attack-LOIC-UDP": 2112,
+      "Brute Force -XSS": 927,
+      "SQL Injection": 432
+    },
+    "total": 18893708,
+    "attack": 2258141,
+    "unique_label_definition": "Benign iff Label equals zero on every row"
+  },
+  "nf-unsw-nb15-v2.zip": {
+    "bytes": 37060516,
+    "categories": {
+      "Benign": 2295222,
+      "Fuzzers": 22310,
+      "Exploits": 31551,
+      "Reconnaissance": 12779,
+      "Generic": 16560,
+      "DoS": 5794,
+      "Shellcode": 1427,
+      "Backdoor": 2169,
+      "Worms": 164,
+      "Analysis": 2299
+    },
+    "total": 2390275,
+    "attack": 95053,
+    "unique_label_definition": "Benign iff Label equals zero on every row"
+  }
+}

@@ -1,0 +1,110 @@
+{
+  "audit": {
+    "development_duplicates_removed": 53,
+    "heldout_conflicting_removed": 8,
+    "heldout_duplicates_removed": 1618,
+    "heldout_overlap_removed": 422,
+    "input_development": 833,
+    "input_test": 5118
+  },
+  "counts": {
+    "calibration": 156,
+    "test": 3070,
+    "test_positive": 730,
+    "train": 624
+  },
+  "dataset": "ADFA-LD (pinned mirror)",
+  "delta_average_precision_markov_minus_unigram": 0.14722573510822617,
+  "metrics": {
+    "markov": {
+      "average_precision": 0.46140721637556187,
+      "confusion_matrix": [
+        [
+          1939,
+          401
+        ],
+        [
+          401,
+          329
+        ]
+      ],
+      "false_positive_rate": 0.17136752136752137,
+      "family_recall": {
+        "Adduser": {
+          "n": 91,
+          "recall": 0.42857142857142855
+        },
+        "Hydra_FTP": {
+          "n": 161,
+          "recall": 0.5403726708074534
+        },
+        "Hydra_SSH": {
+          "n": 172,
+          "recall": 0.48255813953488375
+        },
+        "Java_Meterpreter": {
+          "n": 121,
+          "recall": 0.30578512396694213
+        },
+        "Meterpreter": {
+          "n": 71,
+          "recall": 0.352112676056338
+        },
+        "Web_Shell": {
+          "n": 114,
+          "recall": 0.5087719298245614
+        }
+      },
+      "macro_f1": 0.639658705069664,
+      "precision": 0.4506849315068493,
+      "recall": 0.4506849315068493,
+      "roc_auc": 0.6990457791827654,
+      "threshold": 2.916216057614392
+    },
+    "unigram": {
+      "average_precision": 0.3141814812673357,
+      "confusion_matrix": [
+        [
+          2014,
+          326
+        ],
+        [
+          571,
+          159
+        ]
+      ],
+      "false_positive_rate": 0.13931623931623932,
+      "family_recall": {
+        "Adduser": {
+          "n": 91,
+          "recall": 0.31868131868131866
+        },
+        "Hydra_FTP": {
+          "n": 161,
+          "recall": 0.2608695652173913
+        },
+        "Hydra_SSH": {
+          "n": 172,
+          "recall": 0.1569767441860465
+        },
+        "Java_Meterpreter": {
+          "n": 121,
+          "recall": 0.2396694214876033
+        },
+        "Meterpreter": {
+          "n": 71,
+          "recall": 0.14084507042253522
+        },
+        "Web_Shell": {
+          "n": 114,
+          "recall": 0.19298245614035087
+        }
+      },
+      "macro_f1": 0.5397982076831485,
+      "precision": 0.32783505154639175,
+      "recall": 0.21780821917808219,
+      "roc_auc": 0.5983549935604731,
+      "threshold": 4.159969950009458
+    }
+  }
+}

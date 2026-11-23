@@ -1,0 +1,153 @@
+{
+  "environment": {
+    "command": [
+      "scripts/check_environment.py",
+      "--require-tests"
+    ],
+    "blocked_by": [],
+    "status": "passed",
+    "returncode": 0,
+    "seconds": 1.417,
+    "log": "results/workflow/local-clean-linux311/20261120T144714075495Z/environment.log"
+  },
+  "tests": {
+    "command": [
+      "-m",
+      "pytest",
+      "-q"
+    ],
+    "blocked_by": [],
+    "status": "passed",
+    "returncode": 0,
+    "seconds": 2.644,
+    "log": "results/workflow/local-clean-linux311/20261120T144714075495Z/tests.log"
+  },
+  "data": {
+    "command": [
+      "scripts/download_datasets.py",
+      "--mode",
+      "smoke"
+    ],
+    "blocked_by": [],
+    "status": "passed",
+    "returncode": 0,
+    "seconds": 0.063,
+    "log": "results/workflow/local-clean-linux311/20261120T144714075495Z/data.log"
+  },
+  "detection": {
+    "command": [
+      "-m",
+      "sentinel_x.detection",
+      "--input",
+      "data/processed/smoke/events.csv",
+      "--run",
+      "local-clean-linux311",
+      "--mode",
+      "smoke",
+      "--seed",
+      "42",
+      "--device",
+      "cpu"
+    ],
+    "blocked_by": [],
+    "status": "passed",
+    "returncode": 0,
+    "seconds": 1.691,
+    "log": "results/workflow/local-clean-linux311/20261120T144714075495Z/detection.log"
+  },
+  "replay": {
+    "command": [
+      "scripts/audit_detection.py",
+      "--input",
+      "data/processed/smoke/events.csv",
+      "--results",
+      "results/v02/local-clean-linux311"
+    ],
+    "blocked_by": [],
+    "status": "passed",
+    "returncode": 0,
+    "seconds": 1.651,
+    "log": "results/workflow/local-clean-linux311/20261120T144714075495Z/replay.log"
+  },
+  "overlap": {
+    "command": [
+      "scripts/audit_transformed_overlap.py",
+      "--input",
+      "data/processed/smoke/events.csv",
+      "--results",
+      "results/v02/local-clean-linux311"
+    ],
+    "blocked_by": [],
+    "status": "passed",
+    "returncode": 0,
+    "seconds": 1.248,
+    "log": "results/workflow/local-clean-linux311/20261120T144714075495Z/overlap.log"
+  },
+  "sequences": {
+    "command": [
+      "-m",
+      "sentinel_x.behaviour",
+      "--dataset",
+      "fixture",
+      "--out",
+      "results/v03/local-clean-linux311"
+    ],
+    "blocked_by": [],
+    "status": "passed",
+    "returncode": 0,
+    "seconds": 1.07,
+    "log": "results/workflow/local-clean-linux311/20261120T144714075495Z/sequences.log"
+  },
+  "evidence": {
+    "command": [
+      "-m",
+      "sentinel_x.evidence.evaluate",
+      "--output",
+      "results/v04/local-clean-linux311"
+    ],
+    "blocked_by": [],
+    "status": "passed",
+    "returncode": 0,
+    "seconds": 0.044,
+    "log": "results/workflow/local-clean-linux311/20261120T144714075495Z/evidence.log"
+  },
+  "triage": {
+    "command": [
+      "-m",
+      "sentinel_x.evidence.triage",
+      "--predictions",
+      "results/v02/local-clean-linux311/predictions.csv",
+      "--output",
+      "results/v10/local-clean-linux311/triage"
+    ],
+    "blocked_by": [],
+    "status": "passed",
+    "returncode": 0,
+    "seconds": 0.049,
+    "log": "results/workflow/local-clean-linux311/20261120T144714075495Z/triage.log"
+  },
+  "export": {
+    "command": [
+      "scripts/export_research_results.py",
+      "--run",
+      "local-clean-linux311"
+    ],
+    "blocked_by": [],
+    "status": "passed",
+    "returncode": 0,
+    "seconds": 1.251,
+    "log": "results/workflow/local-clean-linux311/20261120T144714075495Z/export.log"
+  },
+  "verify": {
+    "command": [
+      "scripts/verify_results.py",
+      "--run",
+      "local-clean-linux311"
+    ],
+    "blocked_by": [],
+    "status": "passed",
+    "returncode": 0,
+    "seconds": 1.145,
+    "log": "results/workflow/local-clean-linux311/20261120T144714075495Z/verify.log"
+  }
+}

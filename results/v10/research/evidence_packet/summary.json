@@ -1,0 +1,26 @@
+{
+  "dataset": "UNSW-NB15",
+  "cases": 20,
+  "source_counts": {
+    "TN": 1099,
+    "FP": 907,
+    "TP": 890,
+    "FN": 104
+  },
+  "reviewed_by_humans": 0,
+  "negative_control": {
+    "model": {
+      "claims": 20,
+      "right_record_field_matches": 20,
+      "wrong_record_field_matches": 20,
+      "wrong_record_identity_and_field_matches": 0
+    },
+    "probability": {
+      "claims": 20,
+      "right_record_field_matches": 20,
+      "wrong_record_field_matches": 0,
+      "wrong_record_identity_and_field_matches": 0
+    }
+  },
+  "interpretation": "Exploratory case-control sample; unsuitable for population risk estimates."
+}
